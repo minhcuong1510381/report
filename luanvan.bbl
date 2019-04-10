@@ -1,0 +1,282 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{whymoodle}{inproceedings}{}
+    \name{author}{1}{}{%
+      {{hash=AAHAvZ}{%
+         family={Al-Ajlan},
+         familyi={A\bibinithyphendelim A\bibinitperiod},
+         suffix={Ajlan và\bibnamedelima Zedan},
+         suffixi={A\bibinitperiod\bibinitdelim v\bibinitperiod\bibinitdelim
+  Z\bibinitperiod},
+         given={Hussein},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{AAAvZH1}
+    \strng{fullhash}{AAAvZH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{booktitle}{2008 12th IEEE International Workshop on Future Trends of
+  Distributed Computing Systems}
+    \field{pages}{58\bibrangedash 64}
+    \field{title}{Why Moodle}
+    \field{year}{2008}
+  \endentry
+
+  \entry{chartjs:3}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=nCC}{%
+         prefix={đồng},
+         prefixi={n\bibinitperiod},
+         family={ChartJS},
+         familyi={C\bibinitperiod},
+         given={Cộng},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CCn1}
+    \strng{fullhash}{CCn1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+  \field{howpublished}{\url{https://www.chartjs.org/docs/latest/getting-started/}}
+    \field{title}{Getting Started}
+    \field{year}{2019 (truy cập lần cuối 05-04-2019)}
+  \endentry
+
+  \entry{chartjs:2}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=nCC}{%
+         prefix={đồng},
+         prefixi={n\bibinitperiod},
+         family={ChartJS},
+         familyi={C\bibinitperiod},
+         given={Cộng},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CCn1}
+    \strng{fullhash}{CCn1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+  \field{howpublished}{\url{https://www.chartjs.org/docs/latest/getting-started/installation.html}}
+    \field{title}{Installation}
+    \field{year}{2019 (truy cập lần cuối 05-04-2019)}
+  \endentry
+
+  \entry{lms}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=tCgpttFC}{%
+         prefix={ty\bibnamedelima CP giải pháp trực\bibnamedelima
+  tuyến},
+         prefixi={t\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim
+  g\bibinitperiod\bibinitdelim p\bibinitperiod\bibinitdelim
+  t\bibinitperiod\bibinitdelim t\bibinitperiod},
+         family={FACEWORK},
+         familyi={F\bibinitperiod},
+         given={Công},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FCtCgptt1}
+    \strng{fullhash}{FCtCgptt1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+  \field{howpublished}{\url{http://www.facework.vn/Blog/he-thong-quan-ly-hoc-truc-tuyen-lms-25.html}}
+    \field{title}{Hệ thống quản lý học trực tuyến (LMS)}
+    \field{year}{2015 (truy cập lần cuối 10-03-2019)}
+  \endentry
+
+  \entry{usecase:1}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=FFR}{%
+         family={Ferreira},
+         familyi={F\bibinitperiod},
+         given={Fabiano\bibnamedelima Rodrigues},
+         giveni={F\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FFR1}
+    \strng{fullhash}{FFR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+  \field{howpublished}{\url{https://www.researchgate.net/figure/Use-case-with-basic-actions-handled-by-Moodle-Teacher-and-Student_fig1_287647153}}
+    \field{title}{Use case with basic actions handled by Moodle (Teacher and
+  Student)}
+    \field{year}{07-2012 (truy cập lần cuối 09-04-2019)}
+  \endentry
+
+  \entry{moodle-blackboard-webct}{article}{}
+    \name{author}{1}{}{%
+      {{hash=cLL}{%
+         prefix={Đức},
+         prefixi={c\bibinitperiod},
+         family={Long},
+         familyi={L\bibinitperiod},
+         given={Lê},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LLc1}
+    \strng{fullhash}{LLc1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{title}{Giới thiệu về E-learning và hệ quản trị đào
+  tạo (LMS) nguồn mở Moodle}
+    \field{journaltitle}{Hội thảo 2007}
+    \field{year}{08-2007}
+  \endentry
+
+  \entry{featuremoodle}{article}{}
+    \name{author}{1}{}{%
+      {{hash=LAP}{%
+         family={Lopes},
+         familyi={L\bibinitperiod},
+         given={Ana\bibnamedelima Paula},
+         giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LAP1}
+    \strng{fullhash}{LAP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{title}{Teaching with Moodle in higher education}
+    \field{journaltitle}{INTED 2011}
+    \field{year}{2011}
+  \endentry
+
+  \entry{limitmoodle:2}{article}{}
+    \name{author}{1}{}{%
+      {{hash=vMDBW}{%
+         prefix={và},
+         prefixi={v\bibinitperiod},
+         family={M.\bibnamedelima Dougiamas},
+         familyi={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+         given={B.\bibnamedelima Williams},
+         giveni={B\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MDBWv1}
+    \strng{fullhash}{MDBWv1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Moodle for Teachers,Trainers and Administrators}
+    \field{journaltitle}{Remote-Learner.net.2005}
+    \field{year}{2005}
+  \endentry
+
+  \entry{aboutmoodle}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Moodle},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{howpublished}{\url{https://docs.moodle.org/36/en/About_Moodle}}
+    \field{title}{About Moodle}
+    \field{year}{12-2018 (truy cập lần cuối 15-03-2019)}
+  \endentry
+
+  \entry{moodlestats}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Moodle},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{howpublished}{\url{https://moodle.net/stats/}}
+    \field{title}{Moodle Statistics}
+    \field{year}{02-2019 (truy cập lần cuối 02-04-2019)}
+  \endentry
+
+  \entry{chartjs:1}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=PNH}{%
+         family={Phong},
+         familyi={P\bibinitperiod},
+         given={Nguyễn\bibnamedelima Hữu},
+         giveni={N\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PNH1}
+    \strng{fullhash}{PNH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+  \field{howpublished}{\url{https://huuphongnguyen.com/minh-da-dung-thu-vien-chart-js-de-ve-bieu-do-tren-website-nhu-the-nao/}}
+    \field{title}{Mình đã dùng thư viện Chart.js để vẽ biểu đồ
+  trên website như thế nào?}
+    \field{year}{07-01-2019 (truy cập lần cuối 05-04-2019)}
+  \endentry
+
+  \entry{limitmoodle:1}{article}{}
+    \name{author}{1}{}{%
+      {{hash=vSPAC}{%
+         prefix={và},
+         prefixi={v\bibinitperiod},
+         family={S.\bibnamedelima Pavri},
+         familyi={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+         given={A.\bibnamedelima Chavan},
+         giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SPACv1}
+    \strng{fullhash}{SPACv1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{Open Source Learning Management in Moodle}
+    \field{journaltitle}{Linux journal}
+    \field{year}{2004}
+  \endentry
+\enddatalist
+\endinput
