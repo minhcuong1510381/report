@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.3)  9 APR 2019 15:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.3)  7 MAY 2019 15:24
 entering extended mode
 **./luanvan.tex
 (luanvan.tex
@@ -897,7 +897,7 @@ Package biblatex Info: ... file 'luanvan.bbl' found.
 Package biblatex Info: Reference section=0 on input line 34.
 Package biblatex Info: Reference segment=0 on input line 34.
  (chapter/bialuanvan.tex
-<img/logo.png, id=123, 1007.765pt x 1027.84pt>
+<img/logo.png, id=199, 1007.765pt x 1027.84pt>
 File: img/logo.png Graphic file (type png)
 <use img/logo.png>
 Package pdftex.def Info: img/logo.png  used on input line 9.
@@ -918,14 +918,14 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 12.
-) [3] (luanvan.toc)
+) [3] (luanvan.toc
+[4
+
+])
 \tf@toc=\write5
 \openout5 = `luanvan.toc'.
 
-
-[4
-
-]
+ [5]
 LaTeX Font Info:    Try loading font information for U+msa on input line 64.
  ("D:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -939,124 +939,449 @@ LaTeX Font Info:    Try loading font information for U+lasy on input line 64.
 
 ("D:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-) [5] (luanvan.lot
+) [6] (luanvan.lot
 Overfull \hbox (11.74713pt too wide) detected at line 7
- []\T5/cmr/m/n/12 13
+ []\T5/cmr/m/n/12 15
  []
 
 
 Overfull \hbox (11.74713pt too wide) detected at line 9
- []\T5/cmr/m/n/12 13
+ []\T5/cmr/m/n/12 15
  []
 
 
 Overfull \hbox (11.74713pt too wide) detected at line 11
- []\T5/cmr/m/n/12 16
+ []\T5/cmr/m/n/12 18
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 15
+ []\T5/cmr/m/n/12 31
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 17
+ []\T5/cmr/m/n/12 32
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 19
+ []\T5/cmr/m/n/12 32
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 21
+ []\T5/cmr/m/n/12 32
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 23
+ []\T5/cmr/m/n/12 33
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 25
+ []\T5/cmr/m/n/12 33
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 27
+ []\T5/cmr/m/n/12 33
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 29
+ []\T5/cmr/m/n/12 33
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 31
+ []\T5/cmr/m/n/12 34
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 33
+ []\T5/cmr/m/n/12 34
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 35
+ []\T5/cmr/m/n/12 34
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 37
+ []\T5/cmr/m/n/12 34
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 39
+ []\T5/cmr/m/n/12 35
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 41
+ []\T5/cmr/m/n/12 35
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 43
+ []\T5/cmr/m/n/12 35
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 45
+ []\T5/cmr/m/n/12 35
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 49
+ []\T5/cmr/m/n/12 67
  []
 
 )
 \tf@lot=\write6
 \openout6 = `luanvan.lot'.
 
- [6
+ [7
 
 ] (luanvan.lof
 Overfull \hbox (11.74713pt too wide) detected at line 7
- []\T5/cmr/m/n/12 10
+ []\T5/cmr/m/n/12 12
  []
 
 
 Overfull \hbox (11.74713pt too wide) detected at line 9
- []\T5/cmr/m/n/12 17
+ []\T5/cmr/m/n/12 19
  []
 
 
 Overfull \hbox (11.74713pt too wide) detected at line 11
- []\T5/cmr/m/n/12 18
- []
-
-
-Overfull \hbox (11.74713pt too wide) detected at line 13
- []\T5/cmr/m/n/12 18
- []
-
-
-Overfull \hbox (11.74713pt too wide) detected at line 15
- []\T5/cmr/m/n/12 19
- []
-
-
-Overfull \hbox (11.74713pt too wide) detected at line 17
- []\T5/cmr/m/n/12 19
- []
-
-
-Overfull \hbox (11.74713pt too wide) detected at line 19
  []\T5/cmr/m/n/12 20
  []
 
 
-Overfull \hbox (11.74713pt too wide) detected at line 21
+Overfull \hbox (11.74713pt too wide) detected at line 13
+ []\T5/cmr/m/n/12 20
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 15
  []\T5/cmr/m/n/12 21
  []
 
 
-Overfull \hbox (11.74713pt too wide) detected at line 23
+Overfull \hbox (11.74713pt too wide) detected at line 17
  []\T5/cmr/m/n/12 21
  []
 
 
-Overfull \hbox (11.74713pt too wide) detected at line 27
+Overfull \hbox (11.74713pt too wide) detected at line 19
  []\T5/cmr/m/n/12 22
  []
 
 
-Overfull \hbox (11.74713pt too wide) detected at line 29
+Overfull \hbox (11.74713pt too wide) detected at line 21
  []\T5/cmr/m/n/12 23
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 23
+ []\T5/cmr/m/n/12 23
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 25
+ []\T5/cmr/m/n/12 24
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 29
+ []\T5/cmr/m/n/12 26
  []
 
 
 Overfull \hbox (11.74713pt too wide) detected at line 31
- []\T5/cmr/m/n/12 23
+ []\T5/cmr/m/n/12 27
  []
 
 
 Overfull \hbox (11.74713pt too wide) detected at line 33
- []\T5/cmr/m/n/12 24
+ []\T5/cmr/m/n/12 27
  []
 
 
 Overfull \hbox (11.74713pt too wide) detected at line 35
- []\T5/cmr/m/n/12 24
+ []\T5/cmr/m/n/12 28
  []
 
 
 Overfull \hbox (11.74713pt too wide) detected at line 37
- []\T5/cmr/m/n/12 25
+ []\T5/cmr/m/n/12 28
  []
 
 
 Overfull \hbox (11.74713pt too wide) detected at line 39
- []\T5/cmr/m/n/12 25
+ []\T5/cmr/m/n/12 29
  []
 
 
 Overfull \hbox (11.74713pt too wide) detected at line 41
- []\T5/cmr/m/n/12 26
+ []\T5/cmr/m/n/12 30
  []
 
 
 Overfull \hbox (11.74713pt too wide) detected at line 43
- []\T5/cmr/m/n/12 26
+ []\T5/cmr/m/n/12 36
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 45
+ []\T5/cmr/m/n/12 37
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 47
+ []\T5/cmr/m/n/12 37
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 49
+ []\T5/cmr/m/n/12 38
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 53
+ []\T5/cmr/m/n/12 39
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 55
+ []\T5/cmr/m/n/12 40
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 57
+ []\T5/cmr/m/n/12 40
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 59
+ []\T5/cmr/m/n/12 41
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 61
+ []\T5/cmr/m/n/12 41
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 63
+ []\T5/cmr/m/n/12 42
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 65
+ []\T5/cmr/m/n/12 44
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 67
+ []\T5/cmr/m/n/12 45
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 69
+ []\T5/cmr/m/n/12 45
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 71
+ []\T5/cmr/m/n/12 46
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 73
+ []\T5/cmr/m/n/12 46
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 75
+ []\T5/cmr/m/n/12 47
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 77
+ []\T5/cmr/m/n/12 47
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 79
+ []\T5/cmr/m/n/12 48
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 81
+ []\T5/cmr/m/n/12 49
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 83
+ []\T5/cmr/m/n/12 49
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 85
+ []\T5/cmr/m/n/12 50
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 87
+ []\T5/cmr/m/n/12 50
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 89
+ []\T5/cmr/m/n/12 51
+ []
+
+[8
+
+]
+Overfull \hbox (11.74713pt too wide) detected at line 91
+ []\T5/cmr/m/n/12 51
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 93
+ []\T5/cmr/m/n/12 52
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 95
+ []\T5/cmr/m/n/12 52
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 97
+ []\T5/cmr/m/n/12 53
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 99
+ []\T5/cmr/m/n/12 53
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 101
+ []\T5/cmr/m/n/12 54
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 103
+ []\T5/cmr/m/n/12 54
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 105
+ []\T5/cmr/m/n/12 55
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 107
+ []\T5/cmr/m/n/12 55
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 109
+ []\T5/cmr/m/n/12 56
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 111
+ []\T5/cmr/m/n/12 56
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 113
+ []\T5/cmr/m/n/12 57
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 115
+ []\T5/cmr/m/n/12 57
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 117
+ []\T5/cmr/m/n/12 58
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 119
+ []\T5/cmr/m/n/12 59
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 121
+ []\T5/cmr/m/n/12 59
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 123
+ []\T5/cmr/m/n/12 60
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 125
+ []\T5/cmr/m/n/12 61
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 127
+ []\T5/cmr/m/n/12 62
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 129
+ []\T5/cmr/m/n/12 62
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 131
+ []\T5/cmr/m/n/12 63
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 133
+ []\T5/cmr/m/n/12 64
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 135
+ []\T5/cmr/m/n/12 64
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 137
+ []\T5/cmr/m/n/12 65
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 139
+ []\T5/cmr/m/n/12 65
+ []
+
+
+Overfull \hbox (11.74713pt too wide) detected at line 141
+ []\T5/cmr/m/n/12 66
  []
 
 )
 \tf@lof=\write7
 \openout7 = `luanvan.lof'.
 
- [7
-
-] (chapter/chuong1.tex
+ [9] (chapter/chuong1.tex
 Ch\uhorn \ohorn ng 1.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <13> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
@@ -1064,22 +1389,22 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <13> not available
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <13> not available
 (Font)              size <12> substituted on input line 7.
 
-[8
+[10
 
-]) [9] (chapter/chuong2.tex
+]) [11] (chapter/chuong2.tex
 Ch\uhorn \ohorn ng 2.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\cite' on input line 3.
 
-<img/LMS.png, id=295, 659.46375pt x 350.05782pt>
+<img/LMS.png, id=547, 659.46375pt x 350.05782pt>
 File: img/LMS.png Graphic file (type png)
 <use img/LMS.png>
 Package pdftex.def Info: img/LMS.png  used on input line 9.
 (pdftex.def)             Requested size: 329.73106pt x 175.02847pt.
-[10
+[12
 
- <./img/LMS.png>] [11] [12]
+ <./img/LMS.png>] [13] [14]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\cite' on input line 63.
@@ -1088,27 +1413,27 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\cite' on input line 120.
 
-[13] [14] [15]
+[15] [16] [17]
 Overfull \hbox (9.94829pt too wide) in paragraph at lines 154--183
  [][] 
  []
 
-[16]
+[18]
 
-LaTeX Warning: Citation 'blockmoodle' on page 17 undefined on input line 204.
+LaTeX Warning: Citation 'blockmoodle' on page 19 undefined on input line 204.
 
-<img/lich.png, id=338, 272.51813pt x 207.77625pt>
+<img/lich.png, id=591, 272.51813pt x 207.77625pt>
 File: img/lich.png Graphic file (type png)
 <use img/lich.png>
 Package pdftex.def Info: img/lich.png  used on input line 214.
 (pdftex.def)             Requested size: 272.51746pt x 207.77573pt.
-<img/addblock.png, id=339, 236.38312pt x 310.15875pt>
+<img/addblock.png, id=592, 236.38312pt x 310.15875pt>
 File: img/addblock.png Graphic file (type png)
 <use img/addblock.png>
 Package pdftex.def Info: img/addblock.png  used on input line 227.
 (pdftex.def)             Requested size: 189.10675pt x 248.12733pt.
-[17 <./img/lich.png>]
-<img/block.png, id=344, 1014.03844pt x 482.55281pt>
+[19 <./img/lich.png>]
+<img/block.png, id=597, 1014.03844pt x 482.55281pt>
 File: img/block.png Graphic file (type png)
 <use img/block.png>
 Package pdftex.def Info: img/block.png  used on input line 239.
@@ -1118,18 +1443,18 @@ Overfull \hbox (51.77386pt too wide) in paragraph at lines 239--240
  [] 
  []
 
-<img/khoidieuhuong.png, id=345, 272.51813pt x 411.03563pt>
+<img/khoidieuhuong.png, id=598, 272.51813pt x 411.03563pt>
 File: img/khoidieuhuong.png Graphic file (type png)
 <use img/khoidieuhuong.png>
 Package pdftex.def Info: img/khoidieuhuong.png  used on input line 252.
 (pdftex.def)             Requested size: 163.51213pt x 246.62328pt.
-[18 <./img/addblock.png> <./img/block.png>]
-<img/khoicaidat.png, id=351, 256.70906pt x 179.92218pt>
+[20 <./img/addblock.png> <./img/block.png>]
+<img/khoicaidat.png, id=603, 256.70906pt x 179.92218pt>
 File: img/khoicaidat.png Graphic file (type png)
 <use img/khoicaidat.png>
 Package pdftex.def Info: img/khoicaidat.png  used on input line 264.
 (pdftex.def)             Requested size: 256.70842pt x 179.92174pt.
-<img/khoibaikiemtra.png, id=352, 275.52937pt x 189.70876pt>
+<img/khoibaikiemtra.png, id=604, 275.52937pt x 189.70876pt>
 File: img/khoibaikiemtra.png Graphic file (type png)
 <use img/khoibaikiemtra.png>
 Package pdftex.def Info: img/khoibaikiemtra.png  used on input line 276.
@@ -1137,124 +1462,428 @@ Package pdftex.def Info: img/khoibaikiemtra.png  used on input line 276.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\cite' on input line 284.
+(hyperref)                removing `\cite' on input line 283.
 
-[19 <./img/khoidieuhuong.png> <./img/khoicaidat.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\cite' on input line 293.
-
-
-Overfull \hbox (89.69342pt too wide) in paragraph at lines 299--300
-[]\T5/cmr/m/n/13 Github: Truy cªp link sau º t£i v· b£n mîi nh§t https://githu
-b.com/chartjs/Chart.js/releases 
+[21 <./img/khoidieuhuong.png> <./img/khoicaidat.png>]
+Overfull \hbox (54.49669pt too wide) in paragraph at lines 293--294
+[]\T5/cmr/m/n/13 Download High-Chart v· tø trang chõ t¤i https://www.highcharts
+.com/blog/download/,
  []
 
-<img/canvas.png, id=360, 581.92406pt x 42.1575pt>
-File: img/canvas.png Graphic file (type png)
-<use img/canvas.png>
-Package pdftex.def Info: img/canvas.png  used on input line 310.
-(pdftex.def)             Requested size: 581.92264pt x 42.15738pt.
+<img/divhighcharts.png, id=610, 554.07pt x 45.92157pt>
+File: img/divhighcharts.png Graphic file (type png)
+<use img/divhighcharts.png>
+Package pdftex.def Info: img/divhighcharts.png  used on input line 305.
+(pdftex.def)             Requested size: 554.06865pt x 45.92145pt.
 
-Overfull \hbox (126.67853pt too wide) in paragraph at lines 310--311
+Overfull \hbox (98.82454pt too wide) in paragraph at lines 305--306
  [] 
  []
 
-[20 <./img/khoibaikiemtra.png>]
-<img/chartjs.png, id=366, 584.93532pt x 408.77719pt>
-File: img/chartjs.png Graphic file (type png)
-<use img/chartjs.png>
-Package pdftex.def Info: img/chartjs.png  used on input line 320.
-(pdftex.def)             Requested size: 584.93388pt x 408.77618pt.
+[22 <./img/khoibaikiemtra.png>]
+<img/highcharts.png, id=615, 450.18187pt x 445.665pt>
+File: img/highcharts.png Graphic file (type png)
+<use img/highcharts.png>
+Package pdftex.def Info: img/highcharts.png  used on input line 317.
+(pdftex.def)             Requested size: 450.18077pt x 445.66391pt.
+ [23 <./img/divhighcharts.png> <./img/highcharts.png>]
+<img/ketquahighcharts.png, id=622, 558.58687pt x 273.27094pt>
+File: img/ketquahighcharts.png Graphic file (type png)
+<use img/ketquahighcharts.png>
+Package pdftex.def Info: img/ketquahighcharts.png  used on input line 328.
+(pdftex.def)             Requested size: 558.58551pt x 273.27025pt.
 
-Overfull \hbox (129.68977pt too wide) in paragraph at lines 320--321
+Overfull \hbox (103.3414pt too wide) in paragraph at lines 328--329
  [] 
  []
 
-) [21 <./img/canvas.png> <./img/chartjs.png>] (chapter/chuong3.tex
+) [24 <./img/ketquahighcharts.png>] [25] (chapter/chuong3.tex
 Ch\uhorn \ohorn ng 3.
-<img/usecasegv.png, id=372, 467.49657pt x 389.95688pt>
+<img/usecasegv.png, id=634, 467.49657pt x 389.95688pt>
 File: img/usecasegv.png Graphic file (type png)
 <use img/usecasegv.png>
 Package pdftex.def Info: img/usecasegv.png  used on input line 12.
 (pdftex.def)             Requested size: 327.24536pt x 272.96794pt.
-[22
+[26
 
  <./img/usecasegv.png>]
-<img/usecasehs.png, id=378, 447.17062pt x 346.29375pt>
+<img/usecasehs.png, id=640, 447.17062pt x 346.29375pt>
 File: img/usecasehs.png Graphic file (type png)
 <use img/usecasehs.png>
 Package pdftex.def Info: img/usecasehs.png  used on input line 23.
 (pdftex.def)             Requested size: 313.01729pt x 242.40396pt.
-<img/usecasegvehat.png, id=379, 545.78906pt x 368.87813pt>
+<img/usecasegvehat.png, id=641, 545.78906pt x 368.87813pt>
 File: img/usecasegvehat.png Graphic file (type png)
 <use img/usecasegvehat.png>
 Package pdftex.def Info: img/usecasegvehat.png  used on input line 38.
 (pdftex.def)             Requested size: 354.75868pt x 239.76793pt.
- [23 <./img/usecasehs.png> <./img/usecasegvehat.png>]
-<img/usecasehsehat.png, id=384, 590.205pt x 344.03531pt>
+ [27 <./img/usecasehs.png> <./img/usecasegvehat.png>]
+<img/usecasehsehat.png, id=646, 590.205pt x 344.03531pt>
 File: img/usecasehsehat.png Graphic file (type png)
 <use img/usecasehsehat.png>
 Package pdftex.def Info: img/usecasehsehat.png  used on input line 49.
 (pdftex.def)             Requested size: 413.14067pt x 240.82307pt.
-<img/chitietehatgv.png, id=385, 669.2503pt x 338.01282pt>
+<img/chitietehatgv.png, id=647, 533.74406pt x 342.5297pt>
 File: img/chitietehatgv.png Graphic file (type png)
 <use img/chitietehatgv.png>
 Package pdftex.def Info: img/chitietehatgv.png  used on input line 63.
-(pdftex.def)             Requested size: 468.47202pt x 236.60735pt.
-
-Overfull \hbox (13.2279pt too wide) in paragraph at lines 63--64
- [] 
- []
-
-[24 <./img/usecasehsehat.png> <./img/chitietehatgv.png>]
-<img/chitietehaths.png, id=391, 624.83438pt x 213.04594pt>
+(pdftex.def)             Requested size: 373.61829pt x 239.76915pt.
+[28 <./img/usecasehsehat.png> <./img/chitietehatgv.png>]
+<img/chitietehaths.png, id=653, 624.83438pt x 213.04594pt>
 File: img/chitietehaths.png Graphic file (type png)
 <use img/chitietehaths.png>
 Package pdftex.def Info: img/chitietehaths.png  used on input line 74.
 (pdftex.def)             Requested size: 437.38109pt x 149.13113pt.
+ [29 <./img/chitietehaths.png>]
+<img/database.png, id=658, 1002.74625pt x 839.135pt>
+File: img/database.png Graphic file (type png)
+<use img/database.png>
+Package pdftex.def Info: img/database.png  used on input line 88.
+(pdftex.def)             Requested size: 501.3719pt x 419.56647pt.
 
-Overfull \hbox (5.58878pt too wide) in paragraph at lines 84--84
+Overfull \hbox (46.12779pt too wide) in paragraph at lines 88--89
+ [] 
+ []
+
+[30 <./img/database.png>] [31]
+Overfull \hbox (2.74266pt too wide) in paragraph at lines 201--212
+ [][] 
+ []
+
+[32] [33] [34] [35]
+Overfull \hbox (5.58878pt too wide) in paragraph at lines 492--492
 |[]\T5/cmr/bx/n/17.28 Nhúng d¤ng biºu ç s³ ÷ñc sû döng trong EHAT| 
  []
 
-<img/radar.png, id=392, 360.59718pt x 310.15875pt>
+<img/radar.png, id=685, 453.94594pt x 304.88907pt>
 File: img/radar.png Graphic file (type png)
 <use img/radar.png>
-Package pdftex.def Info: img/radar.png  used on input line 93.
-(pdftex.def)             Requested size: 252.4163pt x 217.10963pt.
-[25 <./img/chitietehaths.png> <./img/radar.png>]
-<img/bar.png, id=397, 609.02531pt x 301.125pt>
+Package pdftex.def Info: img/radar.png  used on input line 502.
+(pdftex.def)             Requested size: 453.94482pt x 304.88832pt.
+[36 <./img/radar.png>]
+<img/bar.png, id=692, 606.01407pt x 306.39468pt>
 File: img/bar.png Graphic file (type png)
 <use img/bar.png>
-Package pdftex.def Info: img/bar.png  used on input line 106.
-(pdftex.def)             Requested size: 426.3148pt x 210.78606pt.
-<img/line.png, id=398, 607.51968pt x 308.65312pt>
+Package pdftex.def Info: img/bar.png  used on input line 517.
+(pdftex.def)             Requested size: 424.20695pt x 214.47481pt.
+<img/line.png, id=693, 606.01407pt x 306.39468pt>
 File: img/line.png Graphic file (type png)
 <use img/line.png>
-Package pdftex.def Info: img/line.png  used on input line 119.
-(pdftex.def)             Requested size: 425.26086pt x 216.0557pt.
-) [26 <./img/bar.png> <./img/line.png>] (chapter/chuong4.tex
+Package pdftex.def Info: img/line.png  used on input line 531.
+(pdftex.def)             Requested size: 424.20695pt x 214.47481pt.
+ [37 <./img/bar.png> <./img/line.png>]
+<img/kientrucehat.png, id=700, 493.0922pt x 369.63094pt>
+File: img/kientrucehat.png Graphic file (type png)
+<use img/kientrucehat.png>
+Package pdftex.def Info: img/kientrucehat.png  used on input line 546.
+(pdftex.def)             Requested size: 493.09099pt x 369.63002pt.
+
+Overfull \hbox (37.84688pt too wide) in paragraph at lines 546--547
+ [] 
+ []
+
+) [38 <./img/kientrucehat.png>] (chapter/chuong4.tex
 Ch\uhorn \ohorn ng 4.
-) [27
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\cite' on input line 4.
+
+<img/initblock.png, id=707, 274.02374pt x 85.06781pt>
+File: img/initblock.png Graphic file (type png)
+<use img/initblock.png>
+Package pdftex.def Info: img/initblock.png  used on input line 17.
+(pdftex.def)             Requested size: 274.02307pt x 85.0676pt.
+[39
+
+ <./img/initblock.png>]
+<img/capblock.png, id=713, 289.08pt x 313.17pt>
+File: img/capblock.png Graphic file (type png)
+<use img/capblock.png>
+Package pdftex.def Info: img/capblock.png  used on input line 32.
+(pdftex.def)             Requested size: 289.07928pt x 313.16922pt.
+<img/langblock.png, id=714, 591.71063pt x 105.39375pt>
+File: img/langblock.png Graphic file (type png)
+<use img/langblock.png>
+Package pdftex.def Info: img/langblock.png  used on input line 46.
+(pdftex.def)             Requested size: 591.70918pt x 105.39348pt.
+
+Overfull \hbox (136.46507pt too wide) in paragraph at lines 46--47
+ [] 
+ []
+
+[40 <./img/capblock.png> <./img/langblock.png>]
+<img/in4block.png, id=721, 585.68813pt x 59.47218pt>
+File: img/in4block.png Graphic file (type png)
+<use img/in4block.png>
+Package pdftex.def Info: img/in4block.png  used on input line 61.
+(pdftex.def)             Requested size: 468.55113pt x 47.5778pt.
+
+Overfull \hbox (13.30702pt too wide) in paragraph at lines 61--62
+ [] 
+ []
+
+<img/contentblock.png, id=722, 603.0028pt x 465.99094pt>
+File: img/contentblock.png Graphic file (type png)
+<use img/contentblock.png>
+Package pdftex.def Info: img/contentblock.png  used on input line 73.
+(pdftex.def)             Requested size: 482.4029pt x 372.79324pt.
+
+Overfull \hbox (27.15878pt too wide) in paragraph at lines 73--74
+ [] 
+ []
+
+[41 <./img/in4block.png> <./img/contentblock.png>]
+<img/gvtool.png, id=729, 277.035pt x 158.09062pt>
+File: img/gvtool.png Graphic file (type png)
+<use img/gvtool.png>
+Package pdftex.def Info: img/gvtool.png  used on input line 96.
+(pdftex.def)             Requested size: 277.03432pt x 158.09023pt.
+ [42 <./img/gvtool.png>]
+[43]
+<img/packagemoodle.png, id=740, 754.31813pt x 385.44pt>
+File: img/packagemoodle.png Graphic file (type png)
+<use img/packagemoodle.png>
+Package pdftex.def Info: img/packagemoodle.png  used on input line 162.
+(pdftex.def)             Requested size: 364.19667pt x 186.09714pt.
+<img/dbmoodle.png, id=741, 1014.03844pt x 353.06906pt>
+File: img/dbmoodle.png Graphic file (type png)
+<use img/dbmoodle.png>
+Package pdftex.def Info: img/dbmoodle.png  used on input line 174.
+(pdftex.def)             Requested size: 591.81873pt x 206.0624pt.
+
+Overfull \hbox (136.57462pt too wide) in paragraph at lines 174--175
+ [] 
+ []
+
+[44 <./img/packagemoodle.png>]
+<img/choosenn.png, id=747, 1026.08344pt x 380.17032pt>
+File: img/choosenn.png Graphic file (type png)
+<use img/choosenn.png>
+Package pdftex.def Info: img/choosenn.png  used on input line 187.
+(pdftex.def)             Requested size: 455.24411pt x 168.67348pt.
+<img/direct.png, id=748, 1003.49907pt x 849.92531pt>
+File: img/direct.png Graphic file (type png)
+<use img/direct.png>
+Package pdftex.def Info: img/direct.png  used on input line 197.
+(pdftex.def)             Requested size: 364.19667pt x 308.46289pt.
+<img/2.png, id=749, 1021.56656pt x 372.64218pt>
+File: img/2.png Graphic file (type png)
+<use img/2.png>
+Package pdftex.def Info: img/2.png  used on input line 207.
+(pdftex.def)             Requested size: 455.24411pt x 166.06122pt.
+<img/3.png, id=750, 1006.51031pt x 733.99219pt>
+File: img/3.png Graphic file (type png)
+<use img/3.png>
+Package pdftex.def Info: img/3.png  used on input line 217.
+(pdftex.def)             Requested size: 455.24411pt x 331.9846pt.
+<img/4.png, id=751, 910.15031pt x 691.08188pt>
+File: img/4.png Graphic file (type png)
+<use img/4.png>
+Package pdftex.def Info: img/4.png  used on input line 227.
+(pdftex.def)             Requested size: 364.19667pt x 276.5333pt.
+<img/5.png, id=752, 886.81313pt x 1180.41pt>
+File: img/5.png Graphic file (type png)
+<use img/5.png>
+Package pdftex.def Info: img/5.png  used on input line 237.
+(pdftex.def)             Requested size: 295.90588pt x 393.8773pt.
+ [45 <./img/dbmoodle.png> <./img/choosenn.png>]
+[46 <./img/direct.png> <./img/2.png>] [47 <./img/3.png> <./img/4.png>] [48 <./i
+mg/5.png>]
+<img/6.png, id=777, 1008.01593pt x 447.92343pt>
+File: img/6.png Graphic file (type png)
+<use img/6.png>
+Package pdftex.def Info: img/6.png  used on input line 256.
+(pdftex.def)             Requested size: 455.24411pt x 202.295pt.
+<img/7.png, id=778, 1008.76875pt x 420.06938pt>
+File: img/7.png Graphic file (type png)
+<use img/7.png>
+Package pdftex.def Info: img/7.png  used on input line 268.
+(pdftex.def)             Requested size: 455.24411pt x 189.5743pt.
+ [49 <./img/6.png> <./img/7.png>]
+<img/8.png, id=785, 1008.76875pt x 481.8pt>
+File: img/8.png Graphic file (type png)
+<use img/8.png>
+Package pdftex.def Info: img/8.png  used on input line 281.
+(pdftex.def)             Requested size: 455.24411pt x 217.43288pt.
+<img/9.png, id=786, 1009.52156pt x 483.30562pt>
+File: img/9.png Graphic file (type png)
+<use img/9.png>
+Package pdftex.def Info: img/9.png  used on input line 293.
+(pdftex.def)             Requested size: 455.24411pt x 217.95012pt.
+ [50 <./img/8.png> <./img/9.png>]
+<img/10.png, id=793, 891.33pt x 417.81094pt>
+File: img/10.png Graphic file (type png)
+<use img/10.png>
+Package pdftex.def Info: img/10.png  used on input line 306.
+(pdftex.def)             Requested size: 455.24411pt x 213.39314pt.
+<img/11.png, id=794, 895.09406pt x 489.32813pt>
+File: img/11.png Graphic file (type png)
+<use img/11.png>
+Package pdftex.def Info: img/11.png  used on input line 318.
+(pdftex.def)             Requested size: 455.24411pt x 248.87457pt.
+
+[51 <./img/10.png> <./img/11.png>]
+<img/12.png, id=801, 878.53218pt x 408.02437pt>
+File: img/12.png Graphic file (type png)
+<use img/12.png>
+Package pdftex.def Info: img/12.png  used on input line 331.
+(pdftex.def)             Requested size: 455.24411pt x 211.43922pt.
+<img/35.png, id=802, 508.90125pt x 150.5625pt>
+File: img/35.png Graphic file (type png)
+<use img/35.png>
+Package pdftex.def Info: img/35.png  used on input line 350.
+(pdftex.def)             Requested size: 455.24411pt x 134.694pt.
+ [52 <./img/12.png> <./img/35.png>]
+<img/36.png, id=809, 199.49532pt x 303.38344pt>
+File: img/36.png Graphic file (type png)
+<use img/36.png>
+Package pdftex.def Info: img/36.png  used on input line 363.
+(pdftex.def)             Requested size: 182.09486pt x 276.93576pt.
+<img/38.png, id=810, 188.20313pt x 251.43938pt>
+File: img/38.png Graphic file (type png)
+<use img/38.png>
+Package pdftex.def Info: img/38.png  used on input line 373.
+(pdftex.def)             Requested size: 159.33821pt x 212.8919pt.
+ [53 <./img/36.png> <./img/38.png>]
+<img/37.png, id=817, 370.38374pt x 341.02406pt>
+File: img/37.png Graphic file (type png)
+<use img/37.png>
+Package pdftex.def Info: img/37.png  used on input line 386.
+(pdftex.def)             Requested size: 273.14923pt x 251.50046pt.
+<img/39.png, id=818, 1001.24063pt x 358.33875pt>
+File: img/39.png Graphic file (type png)
+<use img/39.png>
+Package pdftex.def Info: img/39.png  used on input line 398.
+(pdftex.def)             Requested size: 455.24411pt x 162.92957pt.
+ [54 <./img/37.png> <./img/39.png>]
+<img/16.png, id=826, 432.11438pt x 152.06813pt>
+File: img/16.png Graphic file (type png)
+<use img/16.png>
+Package pdftex.def Info: img/16.png  used on input line 413.
+(pdftex.def)             Requested size: 455.24411pt x 160.21455pt.
+<img/17.png, id=827, 427.5975pt x 186.6975pt>
+File: img/17.png Graphic file (type png)
+<use img/17.png>
+Package pdftex.def Info: img/17.png  used on input line 425.
+(pdftex.def)             Requested size: 455.24411pt x 198.76727pt.
+ [55 <./img/16.png> <./img/17.png>]
+<img/18.png, id=834, 420.82219pt x 345.54094pt>
+File: img/18.png Graphic file (type png)
+<use img/18.png>
+Package pdftex.def Info: img/18.png  used on input line 438.
+(pdftex.def)             Requested size: 273.14923pt x 224.28786pt.
+<img/19.png, id=835, 407.27156pt x 379.4175pt>
+File: img/19.png Graphic file (type png)
+<use img/19.png>
+Package pdftex.def Info: img/19.png  used on input line 449.
+(pdftex.def)             Requested size: 273.14923pt x 254.4805pt.
+<img/20.png, id=836, 413.29407pt x 371.88937pt>
+File: img/20.png Graphic file (type png)
+<use img/20.png>
+Package pdftex.def Info: img/20.png  used on input line 459.
+(pdftex.def)             Requested size: 273.14923pt x 245.78821pt.
+ [56 <./img/18.png> <./img/19.png>]
+<img/21.png, id=843, 465.23813pt x 446.41782pt>
+File: img/21.png Graphic file (type png)
+<use img/21.png>
+Package pdftex.def Info: img/21.png  used on input line 472.
+(pdftex.def)             Requested size: 227.62206pt x 218.41286pt.
+ [57 <./img/20.png> <./img/21.png>]
+<img/22.png, id=850, 574.145pt x 762.85pt>
+File: img/22.png Graphic file (type png)
+<use img/22.png>
+Package pdftex.def Info: img/22.png  used on input line 485.
+(pdftex.def)             Requested size: 364.19667pt x 483.90385pt.
+ [58 <./img/22.png>]
+<img/23.png, id=856, 410.2828pt x 383.18156pt>
+File: img/23.png Graphic file (type png)
+<use img/23.png>
+Package pdftex.def Info: img/23.png  used on input line 500.
+(pdftex.def)             Requested size: 227.62206pt x 212.58643pt.
+<img/24.png, id=857, 418.56375pt x 424.58624pt>
+File: img/24.png Graphic file (type png)
+<use img/24.png>
+Package pdftex.def Info: img/24.png  used on input line 512.
+(pdftex.def)             Requested size: 227.62206pt x 230.89282pt.
+ [59 <./img/23.png> <./img/24.png>]
+<img/25.png, id=864, 647.41875pt x 864.22874pt>
+File: img/25.png Graphic file (type png)
+<use img/25.png>
+Package pdftex.def Info: img/25.png  used on input line 524.
+(pdftex.def)             Requested size: 364.19667pt x 486.16702pt.
+ [60 <./img/25.png>]
+<img/26.png, id=871, 232.61906pt x 440.39531pt>
+File: img/26.png Graphic file (type png)
+<use img/26.png>
+Package pdftex.def Info: img/26.png  used on input line 540.
+(pdftex.def)             Requested size: 273.14923pt x 517.1756pt.
+<img/27.png, id=872, 949.29657pt x 449.42906pt>
+File: img/27.png Graphic file (type png)
+<use img/27.png>
+Package pdftex.def Info: img/27.png  used on input line 550.
+(pdftex.def)             Requested size: 455.24411pt x 215.52461pt.
+ [61 <./img/26.png>]
+<img/28.png, id=878, 928.97063pt x 446.41782pt>
+File: img/28.png Graphic file (type png)
+<use img/28.png>
+Package pdftex.def Info: img/28.png  used on input line 563.
+(pdftex.def)             Requested size: 455.24411pt x 218.77388pt.
+ [62 <./img/27.png> <./img/28.png>]
+<img/29.png, id=885, 1017.8025pt x 1254.6875pt>
+File: img/29.png Graphic file (type png)
+<use img/29.png>
+Package pdftex.def Info: img/29.png  used on input line 578.
+(pdftex.def)             Requested size: 409.71692pt x 505.08247pt.
+ [63 <./img/29.png>]
+<img/30.png, id=891, 575.90157pt x 442.65375pt>
+File: img/30.png Graphic file (type png)
+<use img/30.png>
+Package pdftex.def Info: img/30.png  used on input line 593.
+(pdftex.def)             Requested size: 273.14923pt x 209.95876pt.
+<img/31.png, id=892, 495.35063pt x 444.15938pt>
+File: img/31.png Graphic file (type png)
+<use img/31.png>
+Package pdftex.def Info: img/31.png  used on input line 603.
+(pdftex.def)             Requested size: 273.14923pt x 244.91869pt.
+
+[64 <./img/30.png> <./img/31.png>]
+<img/32.png, id=899, 1006.51031pt x 362.85562pt>
+File: img/32.png Graphic file (type png)
+<use img/32.png>
+Package pdftex.def Info: img/32.png  used on input line 618.
+(pdftex.def)             Requested size: 455.24411pt x 164.11957pt.
+<img/33.png, id=900, 864.98157pt x 447.92343pt>
+File: img/33.png Graphic file (type png)
+<use img/33.png>
+Package pdftex.def Info: img/33.png  used on input line 630.
+(pdftex.def)             Requested size: 455.24411pt x 235.74428pt.
+ [65 <./img/32.png> <./img/33.png>]
+<img/34.png, id=907, 432.86719pt x 482.55281pt>
+File: img/34.png Graphic file (type png)
+<use img/34.png>
+Package pdftex.def Info: img/34.png  used on input line 643.
+(pdftex.def)             Requested size: 455.24411pt x 507.52007pt.
+ [66 <./img/34.png>] [67] [68]) [69] (chapter/chuong5.tex
+Ch\uhorn \ohorn ng 5.
+) [70
 
 ] (chapter/phuluc.tex) (chapter/ketluan.tex)
-LaTeX Font Info:    Try loading font information for T5+cmtt on input line 107.
+LaTeX Font Info:    Try loading font information for T5+cmtt on input line 110.
 
 
 ("D:\Program Files\MiKTeX 2.9\tex\latex\vntex\t5cmtt.fd"
 File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 108.
- [28
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 111.
+ [71
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 108.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 111.
  (luanvan.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 108.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 108.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 111.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 111.
 Package rerunfilecheck Info: File `luanvan.out' has not changed.
-(rerunfilecheck)             Checksum: 1C0F2DDF62FC695C9DD6381A992A31FA;6399.
+(rerunfilecheck)             Checksum: DC99127E87EF2ED3E42126F08A8D2540;9960.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1271,13 +1900,13 @@ Package biblatex Warning: Please (re)run BibTeX on the file(s):
 Package logreq Info: Writing requests to 'luanvan.run.xml'.
 \openout1 = `luanvan.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 108.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 111.
  ) 
 Here is how much of TeX's memory you used:
- 18934 strings out of 492970
- 299310 string characters out of 3135858
- 574614 words of memory out of 3000000
- 22458 multiletter control sequences out of 15000+200000
+ 19383 strings out of 492970
+ 305536 string characters out of 3135858
+ 576614 words of memory out of 3000000
+ 22732 multiletter control sequences out of 15000+200000
  22433 words of font info for 50 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,8n,45p,998b,1401s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1286,9 +1915,9 @@ ogram Files/MiKTeX 2.9/fonts/type1/vntex/vnr/vnbx12.pfb><D:/Program Files/MiKTe
 X 2.9/fonts/type1/vntex/vnr/vnr10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/
 vntex/vnr/vnr12.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/vntex/vnr/vnti12.p
 fb><D:/Program Files/MiKTeX 2.9/fonts/type1/vntex/vnr/vntt12.pfb>
-Output written on luanvan.pdf (29 pages, 682919 bytes).
+Output written on luanvan.pdf (72 pages, 1531524 bytes).
 PDF statistics:
- 468 PDF objects out of 1000 (max. 8388607)
- 98 named destinations out of 1000 (max. 500000)
- 336 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1018 PDF objects out of 1200 (max. 8388607)
+ 224 named destinations out of 1000 (max. 500000)
+ 728 words of extra memory for PDF output out of 10000 (max. 10000000)
 

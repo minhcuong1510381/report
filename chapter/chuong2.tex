@@ -280,47 +280,68 @@ Khối điều hướng bài kiểm tra nằm ở góc trên bên phải. Bạn 
 	\end{figure}
 \end{center}
 
-\section{Tổng quan về ChartJS}
-\subsection{ChartJS là gì? \cite{chartjs:1}}
-ChartJS là một trong những dự án mã nguồn mở giúp cho mọi người có thể vẽ những biểu đồ thể hiện số liệu trên website một cách dễ dàng và đẹp nhất. Tính đến tháng 1 năm 2019 dự án này hiện có đến 41.000 stars và 2600 lượt commit trên Github và được cập nhật thường xuyên. Những ưu điểm nổi bật nhất của ChartJS là:
+\section{Tổng quan về HighCharts \cite{highcharts}} 
+
+\subsection{Giới thiệu}
+HighCharts là một thư viện biểu đồ được xây dựng bằng JavaScript, cung cấp cho người dùng một hệ thống biểu đồ đa dạng và phong phú để thực hiện việc vẽ biểu đồ trên website. HighCharts hỗ trợ rất nhiều các loại biểu đồ khác nhau, từ những dạng biểu đồ đơn giản như biều đồ đường, biểu đồ cột, biểu đồ hình tròn, biểu đồ hình phễu đến cả những biểu đồ dạng 3D, bản đồ thống kê, biểu đồ hộp (Box Plots),…
+
+HighCharts hoàn toàn miễn phí cho mục đích sử dụng cá nhân và phi thương mai, bao gồm cả các dự án cá nhân, trang web trường học, và các tổ chức từ thiện và phi lợi nhuận. Phiên bản trả phí áp dụng cho các tổ chức thương mại và các tập đoàn. Tuy nhiên, bạn đừng quá lo lắng, phiên bản miễn phí của HighCharts cũng cung cấp cho chúng ta 1 kho dữ liệu đồ sộ về hầu hết các loại biểu đồ mà chúng ta cần.
+
+\subsection{Cài đặt HighCharts}
+HighCharts sử dụng thư viện jQuery làm thư viện ứng dụng của mình. Bạn có thể cài đặt HighCharts thông qua những cách sau (chú ý file HighCharts.js phải luôn nằm sau file jQuery.js khi import vào trong dự án).
 \begin{itemize}
-	\item Dự án mã nguồn mở: cả cộng đồng phát triển và khắc phục lỗi.
-	\item Tương thích tốt với HTML.
-	\item Hơn 8 kiểu biểu đồ phổ biến nhất hiện nay.
-	\item Có hỗ trợ responsive giúp hiển thị đẹp nhất trên tất cả các thiết bị từ Desktop, Tablet, Mobile.
+	\item Download HighChart về từ trang chủ tại https://www.highcharts.com/blog/download/, chèn file jquery.min.js và highcharts.js vào thẻ head của trang HTML
+	\item Thay vì tải về, bạn có thể sử dụng CDN để truy cập tập tin trực tiếp. <script src = "https://code.highcharts.com"> </ script>
+	\item Cài đặt từ npm với lệnh npm install highcharts –save
 \end{itemize}
 
-\subsection{Cách cài đặt ChartJS \cite{chartjs:2}}
-Có nhiều cách để cài đặt thư viện ChartJS nhưng chúng em xin đề cập những cách cài đặt phổ biến thông qua những công cụ sau:
-\begin{itemize}
-	\item npm: npm install chart.js --save
-	\item Bower: bower install chart.js --save
-	\item CDN: Truy cập link https://cdnjs.com/libraries/Chart.js
-	\item Github: Truy cập link sau để tải về bản mới nhất https://github.com/chartjs/Chart.js/releases
-\end{itemize}
+\subsection{Code ví dụ HighCharts}
 
-\subsection{Sử dụng ChartJS trên web}
-Để sử dụng ChartJS chúng ta cần thực hiện theo các bước sau: \cite{chartjs:3}
-\begin{itemize}
-	\item Khai báo thư viện ChartJS và Bootstrap.
-	\item Tạo thẻ <canvas> trong trang web
-	\begin{center}
-		\begin{figure}[htp]
-			\begin{center}
-				\includegraphics[scale=1]{img/canvas}
-			\end{center}
-			\caption{Thẻ canvas}
-			\label{refhinh8}
-		\end{figure}
-	\end{center}
-	\item Sử dụng Javascript để đăng ký biểu đồ.
-	\begin{center}
-		\begin{figure}[htp]
-			\begin{center}
-				\includegraphics[scale=1]{img/chartjs}
-			\end{center}
-			\caption{Tạo một biểu đồ thông qua Javascript}
-			\label{refhinh9}
-		\end{figure}
-	\end{center}
-\end{itemize}
+Đầu tiên, để vẽ 1 biểu đồ với HighCharts, trong file .html, ta viết 1 đoạn mã html như sau:
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[scale=1]{img/divhighcharts}
+		\end{center}
+		\caption{Nơi hiển thị biểu đồ}
+		\label{refhinh8}
+	\end{figure}
+\end{center}
+
+Tiếp theo, trong thẻ <script> hoặc file .js, ta chèn đoạn code sau:
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[scale=1]{img/highcharts}
+		\end{center}
+		\caption{Code cấu hình HighCharts}
+		\label{refhinh9}
+	\end{figure}
+\end{center}
+\vskip 6cm
+Và đây là kết quả:
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[scale=1]{img/ketquahighcharts}
+		\end{center}
+		\caption{Kết quả biểu đồ}
+		\label{refhinh20}
+	\end{figure}
+\end{center}
+
+\subsection{Đánh giá}
+
+\subsubsection{Cú pháp đơn giản}
+Như ví dụ ở phần trên chúng ta thấy rằng cú pháp của HighCharts được viết khá mạch lạc và rõ ràng. Nhìn qua ta có thể thấy cú pháp của HighCharts tương tự như cú pháp khi viết JSON và thậm chí còn đơn giản hơn, từ đó giúp cho việc tùy chỉnh và tùy biến biểu đồ theo ý muốn của người sử dụng khá dễ dàng, dù cho người sử dụng có thể không giỏi về ngôn ngữ JavaScipt.
+
+\subsubsection{Bộ API đầy đủ và rõ ràng}
+Tất cả những thuộc tính tương tự như biểu đồ ở trên đều có trong API của HighCharts. HighCharts cung cấp 1 hệ thống API cực kỳ đầy đủ và rõ ràng, bạn có thể tùy biến mọi thứ theo ý muốn bằng cách sử dụng linh hoạt các thuộc tính có sẵn trong API. HighCharts API liệt kê và giải thích tất cả những thuộc tính dùng để vẽ biểu đồ, kèm theo mỗi thuộc tính là 1 ví dụ trực quan, có thể chỉnh sửa thông qua trang web code online JSFiddle cho người sử dụng dễ dàng nắm bắt hơn. Bạn có thể tham khảo về HighCharts API ở https://api.highcharts.com/highcharts/.
+
+\subsubsection{Biễu đồ mẫu đa dạng và phong phú}
+Nếu các bạn cảm thấy bối rối không biết bắt đầu từ đâu để tạo 1 biểu đồ thì HighCharts đã cung cấp sẵn cho chúng ta 1 hệ thống các biễu đồ mẫu có sẵn, từ đó giúp chúng ta dễ định hình và tùy biến thành các biểu đồ theo đúng ý của mình. Tham khảo danh sách các biểu đồ mẫu ở https://www.highcharts.com/demo.
+
+\subsubsection{Tương thích với mọi trình duyệt}
+Các nhà phát triển HighCharts đã rất cố gắng trong việc tương thích các trình duyệt. Ngoài các trình duyệt thông dụng, Highcharts còn chạy được cả ở trên IE6 và iPhone. Đây quả là 1 điều tuyệt vời, vì việc làm sao để website hiển thị tốt trên IE và iPhone là cả 1 vấn đề lớn chứ chưa nói đến IE6 thì thật là 1 khó khăn không nhỏ, nhưng với Highcharts thì bạn có thể yên tâm vì mọi thứ trở nên vô cùng hoàn hảo, các biểu đồ của HighCharts đều hiển thị tốt trên mọi thiết bị.

@@ -1,3 +1,762 @@
 \setcounter{chapter}{3}
 \chapter{Hiện thực và triển khai}
-\section{Cách tạo một block trong Moodle}
+
+\section{Cách tạo một Khối trong Moodle \cite{createblock}}
+
+Để tạo một Khối trong Moodle ta cần cung cấp bốn tệp PHP. Trong trường hợp này nhóm sẽ lấy khối của mình làm ví dụ minh họa cho 4 tệp này.
+
+\subsection{Tệp block\_grades\_chart.php}
+
+Tệp này sẽ định nghĩa lớp cho Khối và được sử dụng để quản lý Khối dưới dạng plugin và hiển thị trên màn hình.
+
+Đầu tiên chúng ta sẽ viết hàm khởi tạo cho Khối
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[scale=1]{img/initblock}
+		\end{center}
+		\caption{Hàm init của Khối}
+		\label{refhinh22}
+	\end{figure}
+\end{center}
+
+\newpage
+\subsection{Tệp db/access.php}
+
+Tiếp đến ta tạo tệp access.php nơi cung cấp các quyền truy cập của Khối
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[scale=1]{img/capblock}
+		\end{center}
+		\caption{Mảng capabilities chứa những quyền truy cập vào Khối}
+		\label{refhinh23}
+	\end{figure}
+\end{center}
+
+\subsection{Tệp lang/en/block\_grades\_chart.php}
+
+Tệp này sẽ chứa ngôn ngữ cho Khối của bạn. Trong phạm vi luận văn nhóm sử dụng tiếng Việt để phát triển cho Khối của mình.
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[scale=1]{img/langblock}
+		\end{center}
+		\caption{Tệp chứa ngôn ngữ cho Khối}
+		\label{refhinh24}
+	\end{figure}
+\end{center}
+
+\newpage
+\subsection{Tệp version.php}
+
+Tệp này chứa thông tin của Khối.
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[scale=0.8]{img/in4block}
+		\end{center}
+		\caption{Thông tin của Khối}
+		\label{refhinh25}
+	\end{figure}
+\end{center}
+
+Trên đây là bốn tệp cơ bản để tạo ra một Khối trong Moodle. Nhưng để Khối hiển thị nội dung ra ngoài màn hình ta cần thêm một phương thức đến lớp của Khối. Code sẽ được thêm vào như sau:
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[scale=0.8]{img/contentblock}
+		\end{center}
+		\caption{Phương thức dùng để hiển thị nội dung của Khối}
+		\label{refhinh26}
+	\end{figure}
+\end{center}
+
+Như vậy chúng ta đã tạo ra được Khối trong Moodle. Tiếp đến chúng ta sẽ cùng đi tìm hiểu những chức năng của EHAT mà nhóm đã xây dựng.
+
+\newpage
+\section{Những chức năng của EHAT}
+
+EHAT là công cụ dễ dàng để sử dụng giúp người dùng phân tích được những dữ liệu trong một khóa học trực tuyến. Bên cạnh đó EHAT còn hỗ trợ cho HV trong quá trình học tập trực tuyến.
+
+Công cụ EHAT hiện nay sẽ hỗ trợ tổng cộng 5 chức năng chính, trong đó 4 chức năng sẽ dành cho GV còn 1 chức năng là của HS,SV. Trước tiên chúng ta sẽ cùng tìm hiểu về 4 chức năng mà EHAT cung cấp cho GV.
+
+\subsection{Đối với GV}
+
+EHAT sẽ cung cấp 4 chức năng chính đối với GV như hình sau:
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[scale=1]{img/gvtool}
+		\end{center}
+		\caption{Bốn chức năng mà EHAT mang lại cho GV}
+		\label{refhinh27}
+	\end{figure}
+\end{center}
+
+Trên đây là hình ảnh minh họa 4 chức năng mà EHAT mang lại cho GV, tiếp theo chúng ta sẽ cùng đi vào chi tiết từng chức năng trên xem chúng có gì hay.
+
+\subsubsection{Biểu đồ đánh giá năng lực sinh viên}
+Chức năng đầu tiên mà EHAT giành cho GV đó là chức năng đánh giá năng lực sinh viên. Ở chức năng này EHAT sẽ sử dụng biểu đồ mạng nhện(Spider web) để mô tả năng lực của từng cá nhân HV. Kết quả sẽ chỉ ra số điểm trung bình của các tiêu chí mà người dùng tự thiết lập để đánh giá. Bên cạnh đó còn có thêm chức năng so sánh năng lực của hai HV để thấy rõ sự khác biệt về năng lực mỗi cá nhân trong khóa học.
+
+\subsubsection{Biểu đồ thống kê số lượt truy cập}
+Để sử dụng chức năng này đầu tiên người dùng phải chọn hạng mục mà mình muốn phân tích số liệu. Ví dụ về các hạng mục mà EHAT hỗ trợ người dùng phân tích:
+\begin{itemize}
+	\item Bài tập lớn(Assignment)
+	\item Trò chuyện(Chat)
+	\item Lựa chọn(Choice)
+	\item Phản hồi(Feedback)
+	\item Diễn đàn(Forum)
+	\item Bài giảng(Lesson)
+	\item Câu hỏi(Quiz)
+	\item Gói SCORM
+	\item Khảo sát(Survey)
+	\item Wiki
+	\item Hội thảo(Workshop)
+	\item Sách(Book)
+	\item Tài nguyên(Resource)
+	\item Tệp tin(Folder)
+	\item Trang(Page)
+	\item Đường dẫn(URL)
+\end{itemize}
+
+Chức năng này cho phép người dùng xem số lượt sinh viên truy cập và không truy cập của từng hạng mục cụ thể mà mình muốn phân tích. Chức năng này giúp GV thấy được mức độ hoạt động của tất cả sinh viên trong khóa học để từ đó có những điều chình phù hợp cho khóa học của mình.
+
+\subsubsection{Biểu đồ phân phối lượt truy cập}
+Chức năng sẽ hiển thị cho người dùng một bảng số liệu chứa những thông tin về:
+\begin{itemize}
+	\item Số lần HV truy cập vào khóa học
+	\item Số ngày mà HV truy cập theo tuần kèm biểu đồ mô tả
+	\item Số lượng tài nguyên mà HV đã truy cập theo tuần kèm biểu đồ mô tả
+\end{itemize}
+Bên cạnh đó bảng số liệu cũng có kèm theo dấu hiệu cho thấy HV có thường xuyên truy cập vào khóa học hay không.
+
+\subsubsection{Bảng hỗ trợ sinh viên}
+Chức năng cuối cùng mà EHAT hỗ trợ nhằm giúp cho GV thêm tài liệu tham khảo đối với mỗi câu hỏi trong mỗi bài kiểm tra. GV có thể thêm đoạn text hoặc một đường dẫn đến nơi mà mình muốn HV tham khảo. Nội dung sẽ được lưu trữ vào cơ sở dữ liệu và hiển thị cho học viên khi học viên sử dụng chức năng của EHAT.
+
+\newpage
+\subsection{Đối với HS, SV}
+
+Hiện nay EHAT chỉ cung cấp 1 chức năng cho sinh viên:
+
+\subsubsection{Bảng xem lại khóa học}
+EHAT hiện chỉ hỗ trợ cho HS, SV chức năng xem lại toàn bộ bài các câu trả lời từ lần làm bài cuối cùng của mình. Trong đó sẽ chỉ rõ câu nào SV trả lời đúng và câu nào SV trả lời sai. Đi kèm với đó là nội dung chi tiết của từng câu hỏi và tài liệu tham khảo nhằm hỗ trợ SV học tập tốt hơn trong quá trình tự học của mình.
+
+\section{Giao diện công cụ EHAT}
+
+Trước khi đi vào tìm hiểu giao diện của công cụ EHAT chúng ta cần điểm sơ qua các bước để cài đặt Moodle và cách để cài đặt một Khối trong Moodle.
+
+\subsection{Các bước cài đặt nền tảng Moodle}
+
+\subsubsection{Tải về gói cài đặt Moodle}
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[width=0.8\linewidth]{img/packagemoodle}
+		\end{center}
+		\caption{Gói cài đặt Moodle 3.6.3+}
+		\label{refhinh28}
+	\end{figure}
+\end{center}
+
+\subsubsection{Tạo một cơ sở dữ liệu có tên moodle trên phpMyAdmin}
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[width=1.3\linewidth]{img/dbmoodle}
+		\end{center}
+		\caption{Cơ sở dữ liệu moodle}
+		\label{refhinh29}
+	\end{figure}
+\end{center}
+
+\newpage
+\subsubsection{Quá trình cài đặt Moodle}
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[width=1\linewidth]{img/choosenn}
+		\end{center}
+		\caption{Chọn ngôn ngữ cho Moodle}
+		\label{refhinh30}
+	\end{figure}
+\end{center}
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[width=0.8\linewidth]{img/direct}
+		\end{center}
+		\caption{Xác định lại các địa chỉ}
+		\label{refhinh31}
+	\end{figure}
+\end{center}
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[width=1\linewidth]{img/2}
+		\end{center}
+		\caption{Chọn loại cơ sở dữ liệu}
+		\label{refhinh32}
+	\end{figure}
+\end{center}
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[width=1\linewidth]{img/3}
+		\end{center}
+		\caption{Cấu hình cơ sở dữ liệu}
+		\label{refhinh33}
+	\end{figure}
+\end{center}
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[width=0.8\linewidth]{img/4}
+		\end{center}
+		\caption{Điều kiện của Moodle}
+		\label{refhinh34}
+	\end{figure}
+\end{center}
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[width=0.65\linewidth]{img/5}
+		\end{center}
+		\caption{Kiểm tra server}
+		\label{refhinh35}
+	\end{figure}
+\end{center}
+
+\vskip 9cm
+Chờ trong giây lát quá trình cài đặt Moodle sẽ hoàn thành.
+
+\subsection{Cài đặt Khối EHAT}
+Tiếp theo nhóm sẽ giới thiệu quá trình cài đặt công cụ EHAT. Hãy kiểm tra lại lần nữa là Moodle của bạn đã được cài đặt và hoạt động bình thường nếu vẫn chưa cài Moodle thì hãy xem lại mục 4.3.1. Quá trình cài đặt sẽ được mô tả theo các bước sau:
+
+\begin{itemize}
+	\item Tại giao diện chính của trang chủ chọn mục Quản trị hệ thống(Đăng nhập Moodle với quyền Admin).
+	
+	\begin{center}
+		\begin{figure}[htp]
+			\begin{center}
+				\includegraphics[width=1\linewidth]{img/6}
+			\end{center}
+			\caption{Chọn chức năng quản trị hệ thống}
+			\label{refhinh36}
+		\end{figure}
+	\end{center}
+
+	\item Tại trang Quản trị hệ thống người dùng chọn mục Module và chọn Install plugins
+	
+	\begin{center}
+		\begin{figure}[htp]
+			\begin{center}
+				\includegraphics[width=1\linewidth]{img/7}
+			\end{center}
+			\caption{Chọn install plugins}
+			\label{refhinh37}
+		\end{figure}
+	\end{center}
+	
+	\newpage
+	\item Kéo thả tệp tin chứa công cụ EHAT(Định dạng file .zip).
+	
+	\begin{center}
+		\begin{figure}[htp]
+			\begin{center}
+				\includegraphics[width=1\linewidth]{img/8}
+			\end{center}
+			\caption{Chọn tệp tin chứa công cụ EHAT}
+			\label{refhinh38}
+		\end{figure}
+	\end{center}
+
+	\item Chọn Install plugin để tiếp tục.
+	
+	\begin{center}
+		\begin{figure}[htp]
+			\begin{center}
+				\includegraphics[width=1\linewidth]{img/9}
+			\end{center}
+			\caption{Chọn Install plugin để tiếp tục}
+			\label{refhinh39}
+		\end{figure}
+	\end{center}
+
+	\newpage
+	\item Tiếp tục để cài đặt công cụ.
+	
+	\begin{center}
+		\begin{figure}[htp]
+			\begin{center}
+				\includegraphics[width=1\linewidth]{img/10}
+			\end{center}
+			\caption{Chọn tiếp tục}
+			\label{refhinh40}
+		\end{figure}
+	\end{center}
+
+	\item Nâng cấp cơ sở dữ liệu Moodle để hoàn tất quá trình cài đặt
+	
+	\begin{center}
+		\begin{figure}[htp]
+			\begin{center}
+				\includegraphics[width=1\linewidth]{img/11}
+			\end{center}
+			\caption{Giao diện nâng cấp cơ sở dữ liệu}
+			\label{refhinh41}
+		\end{figure}
+	\end{center}
+	
+	\vskip 5cm
+	\item Hoàn tất quá trình cài đặt EHAT
+	
+	\begin{center}
+		\begin{figure}[htp]
+			\begin{center}
+				\includegraphics[width=1\linewidth]{img/12}
+			\end{center}
+			\caption{Quá trình cài đặt hoàn thành}
+			\label{refhinh42}
+		\end{figure}
+	\end{center}
+
+\end{itemize}
+
+
+\subsection{Các chức năng của EHAT đối với GV}
+
+Đầu tiên để thấy được các chức năng của EHAT chúng ta cần thêm công cụ EHAT vào một khóa học mà ta muốn phân tích.
+
+Ở giao diện trang chủ của Moodle ta chọn khóa học mà mình muốn thêm công cụ EHAT.
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[width=1\linewidth]{img/35}
+		\end{center}
+		\caption{Chọn khóa học muốn phân tích}
+		\label{refhinh43}
+	\end{figure}
+\end{center}
+
+\newpage
+Bật chế độ chỉnh sửa trong khóa học và chọn mục Thêm khối.
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[width=0.4\linewidth]{img/36}
+		\end{center}
+		\caption{Bật chế độ chỉnh sửa}
+		\label{refhinh44}
+	\end{figure}
+\end{center}
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[width=0.35\linewidth]{img/38}
+		\end{center}
+		\caption{Chọn Thêm khối}
+		\label{refhinh46}
+	\end{figure}
+\end{center}
+
+\newpage
+Chọn khối E-learning Help And Assess Tool
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[width=0.6\linewidth]{img/37}
+		\end{center}
+		\caption{Chọn khối EHAT}
+		\label{refhinh45}
+	\end{figure}
+\end{center}
+
+Như vậy ta đã thêm công cụ EHAT vào khóa học.
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[width=1\linewidth]{img/39}
+		\end{center}
+		\caption{Thêm EHAT thành công}
+		\label{refhinh47}
+	\end{figure}
+\end{center}
+
+\newpage
+\subsubsection{Chức năng đánh giá năng lực SV}
+
+Chúng ta cùng tìm hiểu giao diện của chức năng đầu tiên mà EHAT cung cấp cho GV.
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[width=1\linewidth]{img/16}
+		\end{center}
+		\caption{Màn hình chính của chức năng thứ nhất}
+		\label{refhinh48}
+	\end{figure}
+\end{center}
+
+Nếu nhập số tiêu chí ít hơn 3 sẽ hiện thông báo lỗi.
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[width=1\linewidth]{img/17}
+		\end{center}
+		\caption{Thông báo lỗi 1}
+		\label{refhinh49}
+	\end{figure}
+\end{center}
+
+\newpage
+Nếu ta nhập đúng số tiêu chí thì giao diện sẽ chuyển sang màn hình mới.
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[width=0.6\linewidth]{img/18}
+		\end{center}
+		\caption{Màn hình thiết lập biểu đồ}
+		\label{refhinh50}
+	\end{figure}
+\end{center}
+
+Nếu ta không nhập tên tiêu chí hoặc thêm dữ liệu cho tiêu chí thì EHAT cũng sẽ báo lỗi.
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[width=0.6\linewidth]{img/19}
+		\end{center}
+		\caption{Thông báo lỗi 2}
+		\label{refhinh51}
+	\end{figure}
+\end{center}
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[width=0.6\linewidth]{img/20}
+		\end{center}
+		\caption{Thông báo lỗi 3}
+		\label{refhinh52}
+	\end{figure}
+\end{center}
+
+\vskip 5cm
+Màn hình chọn dữ liệu cho tiêu chí.
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[width=0.5\linewidth]{img/21}
+		\end{center}
+		\caption{Giao diện chọn dữ liệu}
+		\label{refhinh53}
+	\end{figure}
+\end{center}
+
+\newpage
+Sau khi đã hoàn tất mọi yêu cầu, chọn sinh viên cần tham khảo và nhấn nút xác nhận để xem biểu đồ năng lực của sinh viên đó.
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[width=0.8\linewidth]{img/22}
+		\end{center}
+		\caption{Biểu đồ năng lực sinh viên Nguyễn Anh Tuấn}
+		\label{refhinh54}
+	\end{figure}
+\end{center}
+
+\newpage
+\subsubsection{Chức năng so sánh năng lực 2 SV}
+
+Chọn nút So sánh nếu muốn so sánh 2 SV với nhau.
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[width=0.5\linewidth]{img/23}
+		\end{center}
+		\caption{So sánh 2 SV}
+		\label{refhinh55}
+	\end{figure}
+\end{center}
+
+Thông báo lỗi sẽ hiện ra nếu 2 SV so sánh là như nhau.
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[width=0.5\linewidth]{img/24}
+		\end{center}
+		\caption{Thông báo lỗi 4}
+		\label{refhinh56}
+	\end{figure}
+\end{center}
+
+\newpage 
+Sau khi chọn SV so sánh phù hợp nhấn nút xác nhận để thấy được biểu đồ so sánh 2 SV.
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[width=0.8\linewidth]{img/25}
+		\end{center}
+		\caption{Biểu đồ so sánh năng lực 2 SV}
+		\label{refhinh57}
+	\end{figure}
+\end{center}
+
+
+\newpage
+\subsubsection{Biểu đồ thống kê số lượt truy cập của SV}
+
+Giao diện chọn hạng mục để thống kê.
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[width=0.6\linewidth]{img/26}
+		\end{center}
+		\caption{Chọn mục cần thống kê}
+		\label{refhinh58}
+	\end{figure}
+\end{center}
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[width=1\linewidth]{img/27}
+		\end{center}
+		\caption{Biểu đồ thống kê số lượt truy cập của SV}
+		\label{refhinh59}
+	\end{figure}
+\end{center}
+
+\vskip 5cm
+Xem chi tiết những sinh viên nào truy cập.
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[width=1\linewidth]{img/28}
+		\end{center}
+		\caption{Chi tiết số sinh viên}
+		\label{refhinh60}
+	\end{figure}
+\end{center}
+
+\newpage
+\subsubsection{Biểu đồ phân phối lượt truy cập của SV}
+
+Giao diện biểu đồ phân phối lượt truy cập của SV.
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[width=0.9\linewidth]{img/29}
+		\end{center}
+		\caption{Giao diện biểu đồ phân phối lượt truy cập của SV}
+		\label{refhinh61}
+	\end{figure}
+\end{center}
+
+\newpage
+\subsubsection{Bảng thêm tài liệu tham khảo nhằm hỗ trợ sinh viên}
+
+Giao diện bảng thêm tài liệu.
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[width=0.6\linewidth]{img/30}
+		\end{center}
+		\caption{Giao diện bảng thêm tài liệu 1}
+		\label{refhinh62}
+	\end{figure}
+\end{center}
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[width=0.6\linewidth]{img/31}
+		\end{center}
+		\caption{Giao diện bảng thêm tài liệu 2}
+		\label{refhinh63}
+	\end{figure}
+\end{center}
+
+\newpage
+\subsection{Các chức năng của EHAT đối với HS, SV}
+
+Giao diện công cụ EHAT trên màn hình của HS, SV.
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[width=1\linewidth]{img/32}
+		\end{center}
+		\caption{Giao diện công cụ EHAT trên màn hình của HS, SV}
+		\label{refhinh64}
+	\end{figure}
+\end{center}
+
+\subsubsection{Bảng xem lại khóa học của sinh viên}
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[width=1\linewidth]{img/33}
+		\end{center}
+		\caption{Bảng xem lại khóa học của sinh viên}
+		\label{refhinh65}
+	\end{figure}
+\end{center}
+
+\vskip 5cm
+Nội dung chi tiết của từng câu hỏi.
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[width=1\linewidth]{img/34}
+		\end{center}
+		\caption{Nội dung chi tiết của từng câu hỏi}
+		\label{refhinh66}
+	\end{figure}
+\end{center}
+
+\newpage
+\section{Đặc tả yêu cầu hệ thống}
+
+\subsection{Yêu cầu chung}
+
+\begin{center}
+	\begin{table}[!htp]
+		\centering
+		\begin{tabular}{|c|c|c|}
+			\hline 
+			STT & Nội dung & Chi tiết \\ 
+			\hline 
+			1 & Hệ điều hành & Ubuntu 16.04 \\ 
+			\hline 
+			2 & Database Server & MySQL  5.6/5.7 \\ 
+			\hline 
+			3 & Content Server & Apache, >= PHP 7, >= Moodle 3.6 \\ 
+			\hline 
+		\end{tabular} 
+		\caption{Yêu cầu chung của hệ thống}
+		\label{bang20}
+	\end{table}
+\end{center}
+
+\subsection{EHAT đối với GV}
+\subsubsection{Biểu đồ đánh giá năng lực sinh viên}
+\begin{itemize}
+	\item Giới thiệu: Giáo viên có thể đánh giá năng lực của từng cá nhân SV hoặc so sánh 2 SV với nhau.
+	\item Inputs
+	\begin{itemize}
+		\item GV nhập vào số tiêu chí cần thiết lập và chọn nút "Thiết lập".
+		\item GV nhập tên các tiêu chí và chọn dữ liệu cho chúng.
+		\item GV chọn nút "So sánh" nếu muốn so sánh 2 SV với nhau.
+		\item Chọn SV cần phân tích.
+		\item Nhấn nút "Xác nhận" để xem biểu đồ.
+	\end{itemize}
+	\item Quy trình thực hiện
+	\begin{itemize}
+		\item GV nhấn chọn "Biểu đồ năng lực sinh viên" từ giao diện của Khối EHAT.
+		\item GV nhập vào số tiêu chí cần thiết lập và chọn nút "Thiết lập".
+		\item GV nhập tên các tiêu chí và chọn dữ liệu cho chúng.
+		\item GV chọn nút "So sánh" nếu muốn so sánh 2 SV với nhau.
+		\item Chọn SV cần phân tích.
+		\item Nhấn nút "Xác nhận" để xem biểu đồ.
+	\end{itemize}
+	\item Outputs: Giao diện sẽ hiển thị biểu đồ mạng nhện thể hiện năng lực của một sinh viên hoặc so sánh 2 sinh viên mà ta đã chọn để phân tích ở trên.
+	\item Xủ lí lỗi
+	\begin{itemize}
+		\item Nếu GV nhập số tiêu chí ít hơn 3 thì sẽ hiển thị thông báo lỗi và yêu cầu GV nhập lại.
+		\item Nếu tên các tiêu chí hoặc dữ liệu của chúng chưa được thêm thì sẽ hiển thị thông báo yêu cầu GV nhập.
+		\item Nếu 2 SV so sánh là như nhau thì sẽ hiển thị thông báo lỗi.
+	\end{itemize}
+\end{itemize}
+
+\subsubsection{Biểu đồ thống kê số lượt truy cập}
+\begin{itemize}
+	\item Giới thiệu: Giáo viên sử dụng biểu đồ để quan sát số lượng SV tương tác với một hạng mục trong khóa học.
+	\item Inputs
+	\begin{itemize}
+		\item Chọn hạng mục cần tham khảo(Có thể nhấn nút chọn tất cả để xem hết tất cả các hạng mục).
+		\item Thiết lập thời gian bắt đầu.
+		\item Nhấn nút "Xem biểu đồ" để hiển thị kết quả.
+	\end{itemize}
+	\item Quy trình thực hiện
+	\begin{itemize}
+		\item GV nhấn chọn "Biểu đồ thống kê số lượt truy cập" từ giao diện của Khối EHAT
+		\item GV sẽ chọn hạng mục cần tham khảo(Có thể nhấn nút chọn tất cả để xem hết tất cả các hạng mục).
+		\item GV thiết lập thời gian bắt đầu.(Thời gian mặc định là ngày khóa học bắt đầu).
+		\item Nhấn nút "Xem biểu đồ" để hiển thị kết quả.
+	\end{itemize}
+	\item Outputs: Giao diện sẽ hiển thị biểu đồ cột ngang thể hiện tất cả số lượt truy cập và không truy cập của SV đối với từng hạng mục mà ta đã chọn. Đồng thời hiển thị thêm chi tiết SV nào truy cập hay không truy cập trong hạng mục đó.
+	\item Xủ lí lỗi
+	\begin{itemize}
+		\item Nếu GV không chọn hạng mục thì sẽ hiển thị thông báo lỗi.
+	\end{itemize}
+\end{itemize}
+\subsubsection{Biểu đồ phân phối lượt truy cập}
+\begin{itemize}
+	\item Giới thiệu: GV dùng để xem xét chi tiết mức độ tương tác của từng cá nhân HS, SV trong quá trình học.
+	\item Inputs: Chọn mục "Biểu đồ phân phối lượt truy cập" từ giao diện của Khối EHAT
+	\item Quy trình thực hiện: Chọn mục "Biểu đồ phân phối lượt truy cập" từ giao diện của Khối EHAT
+	\item Outputs: Kết quả sẽ hiển thị bảng số liệu chứa tất cả thông tin hoạt động của từng cá nhân HS, SV trong khóa học.
+	\item Xủ lí lỗi: N/A
+\end{itemize}
+\subsubsection{Bảng hỗ trợ sinh viên}
+\begin{itemize}
+	\item Giới thiệu: Giúp GV thêm nguồn tài liệu tham khảo cho HS, SV.
+	\item Inputs
+	\begin{itemize}
+		\item GV chọn nút "Thêm hướng dẫn".
+		\item GV chọn câu hỏi cần thêm tham khảo và nhập nội dung tham khảo vào câu hỏi đó.
+		\item Nhấn nút "Xác nhận" để thêm tài liệu tham khảo.
+	\end{itemize}
+	\item Quy trình thực hiện
+	\begin{itemize}
+		\item GV nhấn chọn "Bảng hỗ trợ sinh viên" từ giao diện của Khối EHAT
+		\item GV chọn nút "Thêm hướng dẫn".
+		\item GV chọn câu hỏi cần thêm tham khảo và nhập nội dung tham khảo vào câu hỏi đó.
+		\item Nhấn nút "Xác nhận" để thêm tài liệu tham khảo.
+	\end{itemize}
+	\item Outputs: Nội dung tham khảo sẽ được thêm vào database để hỗ trợ SV.
+	\item Xủ lí lỗi: N/A
+\end{itemize}
+
+\subsection{EHAT đối với HS, SV}
+\subsubsection{Bảng xem lại khóa học}
+\begin{itemize}
+	\item Giới thiệu: Giúp SV xem lại kết quả của các bài kiểm tra của mình trong khóa học.
+	\item Inputs: SV nhấn chọn "Bảng xem lại khóa học" từ giao diện của Khối EHAT
+	\item Quy trình thực hiện: SV nhấn chọn "Bảng xem lại khóa học" từ giao diện của Khối EHAT
+	\item Outputs: Công cụ sẽ hiển thị ra bảng kết quả chứa tất cả thông tin về câu trả lời của SV trong quá trình kiểm tra.
+	\item Xủ lí lỗi: N/A
+\end{itemize}

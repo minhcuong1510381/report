@@ -17,6 +17,24 @@
 \endgroup
 
 \datalist[entry]{nty/global//global/global}
+  \entry{highcharts}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=TQ}{%
+         family={Ý},
+         familyi={\bibinitperiod},
+         given={Trần\bibnamedelima Quốc},
+         giveni={T\bibinitperiod\bibinitdelim Q\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TQ1}
+    \strng{fullhash}{TQ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{https://viblo.asia/p/highcharts-de-dang-ve-bieu-do-voi-javascript-XQZkxAEovwA}}
+    \field{title}{HighCharts: Dễ dàng vẽ biều đồ với Javascript}
+    \field{year}{24-12-2016 (truy cập lần cuối 25-04-2019)}
+  \endentry
+
   \entry{whymoodle}{inproceedings}{}
     \name{author}{1}{}{%
       {{hash=AAHAvZ}{%
@@ -43,50 +61,6 @@
     \field{pages}{58\bibrangedash 64}
     \field{title}{Why Moodle}
     \field{year}{2008}
-  \endentry
-
-  \entry{chartjs:3}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=nCC}{%
-         prefix={đồng},
-         prefixi={n\bibinitperiod},
-         family={ChartJS},
-         familyi={C\bibinitperiod},
-         given={Cộng},
-         giveni={C\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{CCn1}
-    \strng{fullhash}{CCn1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{C}
-    \field{sortinithash}{C}
-  \field{howpublished}{\url{https://www.chartjs.org/docs/latest/getting-started/}}
-    \field{title}{Getting Started}
-    \field{year}{2019 (truy cập lần cuối 05-04-2019)}
-  \endentry
-
-  \entry{chartjs:2}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=nCC}{%
-         prefix={đồng},
-         prefixi={n\bibinitperiod},
-         family={ChartJS},
-         familyi={C\bibinitperiod},
-         given={Cộng},
-         giveni={C\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{CCn1}
-    \strng{fullhash}{CCn1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{C}
-    \field{sortinithash}{C}
-  \field{howpublished}{\url{https://www.chartjs.org/docs/latest/getting-started/installation.html}}
-    \field{title}{Installation}
-    \field{year}{2019 (truy cập lần cuối 05-04-2019)}
   \endentry
 
   \entry{lms}{misc}{}
@@ -200,6 +174,24 @@
     \field{year}{2005}
   \endentry
 
+  \entry{createblock}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Moodle},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{howpublished}{\url{https://docs.moodle.org/dev/Blocks}}
+    \field{title}{A Step-by-step Guide To Creating Blocks}
+    \field{year}{13-03-2019 (truy cập lần cuối 29-04-2019)}
+  \endentry
+
   \entry{aboutmoodle}{misc}{}
     \name{author}{1}{}{%
       {{hash=M}{%
@@ -234,27 +226,6 @@
     \field{howpublished}{\url{https://moodle.net/stats/}}
     \field{title}{Moodle Statistics}
     \field{year}{02-2019 (truy cập lần cuối 02-04-2019)}
-  \endentry
-
-  \entry{chartjs:1}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=PNH}{%
-         family={Phong},
-         familyi={P\bibinitperiod},
-         given={Nguyễn\bibnamedelima Hữu},
-         giveni={N\bibinitperiod\bibinitdelim H\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{PNH1}
-    \strng{fullhash}{PNH1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{P}
-    \field{sortinithash}{P}
-  \field{howpublished}{\url{https://huuphongnguyen.com/minh-da-dung-thu-vien-chart-js-de-ve-bieu-do-tren-website-nhu-the-nao/}}
-    \field{title}{Mình đã dùng thư viện Chart.js để vẽ biểu đồ
-  trên website như thế nào?}
-    \field{year}{07-01-2019 (truy cập lần cuối 05-04-2019)}
   \endentry
 
   \entry{limitmoodle:1}{article}{}
