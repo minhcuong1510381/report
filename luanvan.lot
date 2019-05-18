@@ -4,49 +4,51 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.1}{\ignorespaces Th\IeC {\'\ocircumflex }ng k\IeC {\^e} Moodle\relax }}{15}{table.caption.7}
+\contentsline {table}{\numberline {2.1}{\ignorespaces Th\IeC {\'\ocircumflex }ng k\IeC {\^e} Moodle\relax }}{16}{table.caption.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.2}{\ignorespaces Top 10 qu\IeC {\'\ocircumflex }c gia \IeC {\dj }\IeC {\u a}ng k\IeC {\'y} Moodle\relax }}{15}{table.caption.8}
+\contentsline {table}{\numberline {2.2}{\ignorespaces Top 10 qu\IeC {\'\ocircumflex }c gia \IeC {\dj }\IeC {\u a}ng k\IeC {\'y} Moodle\relax }}{16}{table.caption.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.3}{\ignorespaces B\IeC {\h a}ng so s\IeC {\'a}nh Moodle, Blackboard v\IeC {\`a} WebCT\relax }}{18}{table.caption.9}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.1}{\ignorespaces Chi ti\IeC {\'\ecircumflex }t b\IeC {\h a}ng mdl\_users\relax }}{31}{table.caption.26}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.2}{\ignorespaces Chi ti\IeC {\'\ecircumflex }t b\IeC {\h a}ng mdl\_role\_assignments\relax }}{32}{table.caption.27}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.3}{\ignorespaces Chi ti\IeC {\'\ecircumflex }t b\IeC {\h a}ng mdl\_context\relax }}{32}{table.caption.28}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.4}{\ignorespaces Chi ti\IeC {\'\ecircumflex }t b\IeC {\h a}ng mdl\_course\relax }}{32}{table.caption.29}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.5}{\ignorespaces Chi ti\IeC {\'\ecircumflex }t b\IeC {\h a}ng mdl\_course\_modules\relax }}{33}{table.caption.30}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.6}{\ignorespaces Chi ti\IeC {\'\ecircumflex }t b\IeC {\h a}ng mdl\_course\_sections\relax }}{33}{table.caption.31}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.7}{\ignorespaces Chi ti\IeC {\'\ecircumflex }t b\IeC {\h a}ng mdl\_quiz\_grades\relax }}{33}{table.caption.32}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.8}{\ignorespaces Chi ti\IeC {\'\ecircumflex }t b\IeC {\h a}ng mdl\_quiz\relax }}{33}{table.caption.33}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.9}{\ignorespaces Chi ti\IeC {\'\ecircumflex }t b\IeC {\h a}ng mdl\_question\relax }}{34}{table.caption.34}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.10}{\ignorespaces Chi ti\IeC {\'\ecircumflex }t b\IeC {\h a}ng mdl\_quiz\_slots\relax }}{34}{table.caption.35}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.11}{\ignorespaces Chi ti\IeC {\'\ecircumflex }t b\IeC {\h a}ng mdl\_question\_attemp\_steps\relax }}{34}{table.caption.36}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.12}{\ignorespaces Chi ti\IeC {\'\ecircumflex }t b\IeC {\h a}ng mdl\_question\_attemp\relax }}{34}{table.caption.37}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.13}{\ignorespaces Chi ti\IeC {\'\ecircumflex }t b\IeC {\h a}ng mdl\_modules\relax }}{35}{table.caption.38}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.14}{\ignorespaces Chi ti\IeC {\'\ecircumflex }t b\IeC {\h a}ng mdl\_logstore\_standard\_log\relax }}{35}{table.caption.39}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.15}{\ignorespaces Chi ti\IeC {\'\ecircumflex }t b\IeC {\h a}ng mdl\_log\relax }}{35}{table.caption.40}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.16}{\ignorespaces Chi ti\IeC {\'\ecircumflex }t b\IeC {\h a}ng mdl\_block\_grades\_chart\relax }}{35}{table.caption.41}
+\contentsline {table}{\numberline {2.3}{\ignorespaces B\IeC {\h a}ng so s\IeC {\'a}nh Moodle, Blackboard v\IeC {\`a} WebCT\relax }}{19}{table.caption.9}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4.1}{\ignorespaces Y\IeC {\^e}u c\IeC {\`\acircumflex }u chung c\IeC {\h u}a h\IeC {\d \ecircumflex } th\IeC {\'\ocircumflex }ng\relax }}{67}{table.caption.91}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Chi ti\IeC {\'\ecircumflex }t b\IeC {\h a}ng mdl\_users\relax }}{32}{table.caption.26}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.2}{\ignorespaces Chi ti\IeC {\'\ecircumflex }t b\IeC {\h a}ng mdl\_role\_assignments\relax }}{33}{table.caption.27}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.3}{\ignorespaces Chi ti\IeC {\'\ecircumflex }t b\IeC {\h a}ng mdl\_context\relax }}{33}{table.caption.28}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.4}{\ignorespaces Chi ti\IeC {\'\ecircumflex }t b\IeC {\h a}ng mdl\_course\relax }}{33}{table.caption.29}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.5}{\ignorespaces Chi ti\IeC {\'\ecircumflex }t b\IeC {\h a}ng mdl\_course\_modules\relax }}{34}{table.caption.30}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.6}{\ignorespaces Chi ti\IeC {\'\ecircumflex }t b\IeC {\h a}ng mdl\_course\_sections\relax }}{34}{table.caption.31}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.7}{\ignorespaces Chi ti\IeC {\'\ecircumflex }t b\IeC {\h a}ng mdl\_quiz\_grades\relax }}{34}{table.caption.32}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.8}{\ignorespaces Chi ti\IeC {\'\ecircumflex }t b\IeC {\h a}ng mdl\_quiz\relax }}{34}{table.caption.33}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.9}{\ignorespaces Chi ti\IeC {\'\ecircumflex }t b\IeC {\h a}ng mdl\_question\relax }}{35}{table.caption.34}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.10}{\ignorespaces Chi ti\IeC {\'\ecircumflex }t b\IeC {\h a}ng mdl\_quiz\_slots\relax }}{35}{table.caption.35}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.11}{\ignorespaces Chi ti\IeC {\'\ecircumflex }t b\IeC {\h a}ng mdl\_question\_attemp\_steps\relax }}{35}{table.caption.36}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.12}{\ignorespaces Chi ti\IeC {\'\ecircumflex }t b\IeC {\h a}ng mdl\_question\_attemp\relax }}{35}{table.caption.37}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.13}{\ignorespaces Chi ti\IeC {\'\ecircumflex }t b\IeC {\h a}ng mdl\_modules\relax }}{36}{table.caption.38}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.14}{\ignorespaces Chi ti\IeC {\'\ecircumflex }t b\IeC {\h a}ng mdl\_logstore\_standard\_log\relax }}{36}{table.caption.39}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.15}{\ignorespaces Chi ti\IeC {\'\ecircumflex }t b\IeC {\h a}ng mdl\_log\relax }}{36}{table.caption.40}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.16}{\ignorespaces Chi ti\IeC {\'\ecircumflex }t b\IeC {\h a}ng mdl\_block\_grades\_chart\relax }}{36}{table.caption.41}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.1}{\ignorespaces Y\IeC {\^e}u c\IeC {\`\acircumflex }u chung c\IeC {\h u}a h\IeC {\d \ecircumflex } th\IeC {\'\ocircumflex }ng\relax }}{45}{table.caption.52}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \contentsfinish 
