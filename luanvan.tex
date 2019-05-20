@@ -3,6 +3,7 @@
 \usepackage{amsmath,amsxtra,amssymb,latexsym, amscd,amsthm}
 \usepackage{indentfirst}
 \usepackage{color}
+\usepackage{fancyhdr}
 \usepackage[mathscr]{eucal}
 \usepackage{amsfonts}
 \usepackage{amssymb}
@@ -20,7 +21,8 @@
 \usepackage[backend=bibtex,style=numeric,natbib=true]{biblatex}
 \bibliography{ref}
 
-\setcounter{tocdepth}{2}
+\setcounter{secnumdepth}{5}  
+\setcounter{tocdepth}{2}   
 
 \renewcommand{\theequation}{\arabic{chapter}.\arabic{section}.\arabic{equation}}
 \newtheorem{lemma}{\bf Bổ đề}[section]
@@ -30,6 +32,33 @@
 \newtheorem{definition}{\bf Định nghĩa}[section]
 \newtheorem{remark}{\bf Chú ý}[section]
 
+%\usepackage{fancyhdr}
+\setlength{\headheight}{40pt}
+\pagestyle{fancy}
+\fancyhead{} % clear all header fields
+\graphicspath{ {img/} }
+\fancyhead[L]{
+	\begin{tabular}{rl}
+		\begin{picture}(25,15)(0,0)
+		\put(0,-8){\includegraphics[width=9mm, height=8mm]{img/logo.png}}
+		\end{picture}&
+		\begin{tabular}{l}
+			\textbf{\bf \ttfamily Trường Đại Học Bách Khoa TP.Hồ Chí Minh}\\
+			\textbf{\bf \ttfamily Khoa Khoa Học \& Kỹ Thuật Máy Tính}
+		\end{tabular} 	
+	\end{tabular}
+}
+\fancyhead[R]{
+	\begin{tabular}{l}
+		\tiny \bf \\
+		\tiny \bf 
+\end{tabular}  }
+\setlength{\headheight}{30pt}
+\fancyfoot{} % clear all footer fields
+\fancyfoot[L]{\bf \ttfamily Luận văn tốt nghiệp}
+\fancyfoot[R]{\bf \ttfamily Trang {\thepage}}
+\renewcommand{\headrulewidth}{0.3pt}
+\renewcommand{\footrulewidth}{0.3pt}
 
 \begin{document}
 	\makeatletter
@@ -41,7 +70,6 @@
 	%+ Page style
 	\newpage
 	\input {chapter/bialuanvan}
-	
 	
 	\newpage
 	\input {chapter/loicamdoan}
@@ -104,8 +132,14 @@
 	\newpage
 	\input {chapter/ketluan}
 	
-	\newpage
-	\input {chapter/phuluc}
-	
+	\clearpage
+	\phantomsection
+	\addcontentsline{toc}{chapter}{Tài liệu tham khảo}
 	\printbibliography
+	
+	\clearpage
+	\phantomsection
+	\addcontentsline{toc}{chapter}{Phụ lục}
+	\input{chapter/phuluc}
+	
 \end{document}
