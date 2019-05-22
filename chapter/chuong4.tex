@@ -112,52 +112,92 @@ EHAT sẽ cung cấp 4 chức năng chính đối với GV như hình sau:
 	\end{figure}
 \end{center}
 
+\vskip 5cm
 Trên đây là hình ảnh minh họa 4 chức năng mà EHAT mang lại cho GV, tiếp theo chúng ta sẽ cùng đi vào chi tiết từng chức năng trên xem chúng có gì hay.
 
+Để thực hiện các chức năng này nhóm đã có tham khảo một phần source code ở \cite{code} nhằm lấy dữ liệu từ log file để vẽ biểu đồ chính xác hơn
+
 \subsubsection{Biểu đồ đánh giá năng lực sinh viên}
-Chức năng đầu tiên mà EHAT giành cho GV đó là chức năng đánh giá năng lực sinh viên. Ở chức năng này EHAT sẽ sử dụng biểu đồ mạng nhện(Spider web) để mô tả năng lực của từng cá nhân HV. Kết quả sẽ chỉ ra số điểm trung bình của các tiêu chí mà người dùng tự thiết lập để đánh giá. Bên cạnh đó còn có thêm chức năng so sánh năng lực của hai HV để thấy rõ sự khác biệt về năng lực mỗi cá nhân trong khóa học.
+\begin{itemize}
+	\item Chức năng đầu tiên mà EHAT giành cho GV đó là chức năng đánh giá năng lực sinh viên. Ở chức năng này EHAT sẽ sử dụng biểu đồ mạng nhện(Spider web) để mô tả năng lực của từng cá nhân HV. Kết quả sẽ chỉ ra số điểm trung bình của các tiêu chí mà GV thiết lập để đánh giá. Bên cạnh đó còn có thêm chức năng so sánh năng lực của hai HV để thấy rõ sự khác biệt về năng lực mỗi cá nhân trong khóa học.
+	
+	\item Để hiện thực chức năng này nhóm đã sử dụng dữ liệu về điểm số các bài kiểm tra của sinh viên được thu thập từ bảng mdl\_quiz\_grades trong Database của Moodle đồng thời kết hợp với giá trị đầu vào như id của sinh viên, id của các bài kiểm tra,... từ đó ta tính trung bình để tìm ra được số điểm của một tiêu chí cần mô tả. Đồng thời kết hợp với biểu đồ mạng nhện được hỗ trợ bởi thư viện Highcharts để đưa giá trị ấy về dạng trực quan dễ tham khảo hơn.
+\end{itemize}
 
 \subsubsection{Biểu đồ thống kê số lượt truy cập}
-Để sử dụng chức năng này đầu tiên người dùng phải chọn hạng mục mà mình muốn phân tích số liệu. Ví dụ về các hạng mục mà EHAT hỗ trợ người dùng phân tích:
 \begin{itemize}
-	\item Bài tập lớn(Assignment)
-	\item Trò chuyện(Chat)
-	\item Lựa chọn(Choice)
-	\item Phản hồi(Feedback)
-	\item Diễn đàn(Forum)
-	\item Bài giảng(Lesson)
-	\item Câu hỏi(Quiz)
-	\item Gói SCORM
-	\item Khảo sát(Survey)
-	\item Wiki
-	\item Hội thảo(Workshop)
-	\item Sách(Book)
-	\item Tài nguyên(Resource)
-	\item Tệp tin(Folder)
-	\item Trang(Page)
-	\item Đường dẫn(URL)
-\end{itemize}
+	\item Để sử dụng chức năng này đầu tiên người dùng phải chọn hạng mục mà mình muốn phân tích số liệu. Ví dụ về các hạng mục mà EHAT hỗ trợ người dùng phân tích:
+	
+	\begin{itemize}
+		\item Bài tập lớn(Assignment)
+		\item Trò chuyện(Chat)
+		\item Lựa chọn(Choice)
+		\item Phản hồi(Feedback)
+		\item Diễn đàn(Forum)
+		\item Bài giảng(Lesson)
+		\item Câu hỏi(Quiz)
+		\item Gói SCORM
+		\item Khảo sát(Survey)
+		\item Wiki
+		\item Hội thảo(Workshop)
+		\item Sách(Book)
+		\item Tài nguyên(Resource)
+		\item Tệp tin(Folder)
+		\item Trang(Page)
+		\item Đường dẫn(URL)
+	\end{itemize}
 
-Chức năng này cho phép người dùng xem số lượt sinh viên truy cập và không truy cập của từng hạng mục cụ thể mà mình muốn phân tích. Chức năng này giúp GV thấy được mức độ hoạt động của tất cả sinh viên trong khóa học để từ đó có những điều chình phù hợp cho khóa học của mình.
+	\item Chức năng này cho phép người dùng xem số lượt sinh viên truy cập và không truy cập của từng hạng mục cụ thể mà mình muốn phân tích. Chức năng này giúp GV thấy được mức độ hiệu quả của các tài nguyên trong khóa học để từ đó có những điều chình phù hợp cho khóa học của mình.
+	
+	\item Chức năng này nhóm đã đọc log file được lưu trữ trong bảng mdl\_logstore\_standard\_log của Moodle để đếm số lượng truy cập vào một mô-đun, một mô-đun được truy cập khi mô-đun đó có thể hiện hành động "viewed" hoặc "submission" được mô tả ở cột "action" và cột "instance" sẽ là cột mô tả id của mô-đun mà ta muốn tham khảo. Kèm với việc sử dụng biểu đồ cột ngang để mô tả chính xác những dữ liệu mà nhóm thu thập được.
+\end{itemize}
 
 \subsubsection{Biểu đồ phân phối lượt truy cập}
-Chức năng sẽ hiển thị cho người dùng một bảng số liệu chứa những thông tin về:
 \begin{itemize}
-	\item Số lần HV truy cập vào khóa học
-	\item Số ngày mà HV truy cập theo tuần kèm biểu đồ mô tả
-	\item Số lượng tài nguyên mà HV đã truy cập theo tuần kèm biểu đồ mô tả
+	\item Chức năng sẽ hiển thị cho người dùng một bảng số liệu chứa những thông tin về:
+	\begin{itemize}
+		\item Số lần HV truy cập vào khóa học
+		\item Số ngày mà HV truy cập theo tuần kèm biểu đồ mô tả
+		\item Biểu đồ phần trăm lượt truy cập kèm theo đó là biểu đồ thể hiện chi tiết số lần truy cập của sinh viên
+	\end{itemize}
+	
+	\item Bên cạnh đó bảng số liệu cũng có kèm theo dấu hiệu cho thấy HV có thường xuyên truy cập vào khóa học hay không. Để hiện thực được chức năng này ta cần lấy ra được những giá trị như sau:
+	
+	\begin{itemize}
+		\item Số lượng ngày được truy cập trong một tuần. Dữ liệu này ta cũng sử dụng dữ liệu từ bảng mdl\_logstore\_standard\_log với điều kiện hành động của sinh viên là "viewed" và mục tiêu tác động đó là "course" và ta sẽ tính toán số tuần dựa vào ngày bắt đầu của khóa học đến thời điểm hiện tại.
+		
+		\item Lấy thông tin của tất cả các mô-đun được sử dụng trong khóa học thông qua bảng course\_modules của Moodle. Từ đó ta tiếp tục sử dụng bảng mdl\_logstore\_standard\_log để đếm số lần truy cập vào một mô-đun của một sinh viên đồng thời tính được số mô-đun mà sinh viên ấy truy cập và không truy cập.
+	\end{itemize}
+	
+	Sau khi lấy được những dữ liệu như trên nhóm đã dùng bảng số liệu, biểu đồ đường, biểu đồ tròn, biểu đồ cột đứng để thể hiện các giá trị của những dữ liệu ấy.
+	
 \end{itemize}
-Bên cạnh đó bảng số liệu cũng có kèm theo dấu hiệu cho thấy HV có thường xuyên truy cập vào khóa học hay không.
 
 \subsubsection{Bảng hỗ trợ sinh viên}
-Chức năng cuối cùng mà EHAT hỗ trợ nhằm giúp cho GV thêm tài liệu tham khảo đối với mỗi câu hỏi trong mỗi bài kiểm tra. GV có thể thêm đoạn text hoặc một đường dẫn đến nơi mà mình muốn HV tham khảo. Nội dung sẽ được lưu trữ vào cơ sở dữ liệu và hiển thị cho học viên khi học viên sử dụng chức năng của EHAT.
+\begin{itemize}
+	\item Chức năng cuối cùng mà EHAT hỗ trợ nhằm giúp cho GV thêm tài liệu tham khảo đối với mỗi câu hỏi trong mỗi bài kiểm tra. GV có thể thêm đoạn text hoặc một đường dẫn đến nơi mà mình muốn HV tham khảo. Nội dung sẽ được lưu trữ vào cơ sở dữ liệu và hiển thị cho học viên khi học viên sử dụng chức năng của EHAT.
+	
+	\item Chức năng này để xây dựng nhóm đã tạo thêm một bảng vào database của Moodle nhằm lưu trữ id của câu hỏi và nội dung tài liệu tham khảo. Bảng này sẽ tự động thêm vào Database khi ta thêm khối EHAT.
+\end{itemize}
 
 \subsection{Đối với HS, SV}
 
 Hiện nay EHAT chỉ cung cấp 1 chức năng cho sinh viên:
 
 \subsubsection{Bảng xem lại khóa học}
-EHAT hiện chỉ hỗ trợ cho HS, SV chức năng xem lại toàn bộ bài các câu trả lời từ lần làm bài cuối cùng của mình. Trong đó sẽ chỉ rõ câu nào SV trả lời đúng và câu nào SV trả lời sai. Đi kèm với đó là nội dung chi tiết của từng câu hỏi và tài liệu tham khảo nhằm hỗ trợ SV học tập tốt hơn trong quá trình tự học của mình.
+\begin{itemize}
+	\item EHAT hiện chỉ hỗ trợ cho HS, SV chức năng xem lại toàn bộ bài các câu trả lời từ lần làm bài cuối cùng của mình. Trong đó sẽ chỉ rõ câu nào SV trả lời đúng và câu nào SV trả lời sai. Đi kèm với đó là nội dung chi tiết của từng câu hỏi và tài liệu tham khảo nhằm hỗ trợ SV học tập tốt hơn trong quá trình tự học của mình.
+	
+	\item Chức năng này nhóm đã lấy tất cả thông tin cần thiết của các bài kiểm tra trong lần làm bài cuối cùng của sinh viên và dữ liệu bên bảng mà nhóm đã tạo thêm để hiển thị. Tất cả thông tin ấy có trong các bảng sau:
+	\begin{itemize}
+		\item mdl\_quiz
+		\item mdl\_question\_attempt\_steps 
+		\item mdl\_question\_attempts
+		\item mdl\_quiz\_grades
+		\item mdl\_quiz\_slots
+		\item mdl\_question
+	\end{itemize}
+\end{itemize}
 
 \newpage
 \section{Đặc tả yêu cầu hệ thống}
