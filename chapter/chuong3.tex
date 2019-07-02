@@ -1,29 +1,123 @@
 \setcounter{chapter}{2}
 \fontsize{13}{5}\selectfont
 \chapter{Phân tích hệ thống}
-EHAT sẽ sử dụng các bảng có sẵn trong database của hệ thống học tập Moodle để lấy thông tin, phân tích và sẽ trả về những kết quả mà ta mong đợi. Chính vì thế nhóm chúng em sẽ nêu ra những use case cũng như những database của Moodle cần thiết phục vụ cho quá trình xây dựng công cụ EHAT.
+
+\section{Tìm hiểu những công cụ có sẵn trên Moodle}
+
+Nhằm hỗ trợ cho việc hoàn thành mục tiêu đề ra trong phạm vi luận văn nhóm đã tìm hiểu những chức năng hữu ích của những công cụ có sẵn trên Moodle để tham khảo và hiện thực thêm những chức năng khác.
+
+\subsection{Công cụ Analytics graphs}
+
+Công cụ Analytics graphs của tác giả Marcelo Schmitt cung cấp các dạng biểu đồ nhằm hỗ trợ việc xác định kết quả học tập của học viên. 
+
+Sau đây là một số hình ảnh minh họa cho những chức năng của công cụ:
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[width=0.8\linewidth]{img/43}
+		\end{center}
+		\caption{Biểu đồ phân phối nội dung truy cập}
+		\label{refhinh81}
+	\end{figure}
+\end{center}
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[width=0.8\linewidth]{img/44}
+		\end{center}
+		\caption{Biểu đồ số lượt truy cập}
+		\label{refhinh82}
+	\end{figure}
+\end{center}
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[width=0.8\linewidth]{img/45}
+		\end{center}
+		\caption{Biểu đồ mô tả hoạt động của sinh viên trong ngày}
+		\label{refhinh83}
+	\end{figure}
+\end{center}
+
+\vskip 5cm
+\subsection{Công cụ Quiz Analytics}
+
+Công cụ Quiz Analytics của tác giả DualCube Team cung cấp chức năng phân tích nỗ lực của học viên trong quá trình làm bài thi hay bài kiểm tra. Tất cả dữ liệu đều được thể hiện bằng biểu đồ trực quan.
+
+Sau đây là một số hình ảnh minh họa cho công cụ Quiz Analytics:
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[width=0.8\linewidth]{img/46}
+		\end{center}
+		\caption{Biểu đồ mô tả trạng thái các câu trả lời trong các bài kiểm tra}
+		\label{refhinh84}
+	\end{figure}
+\end{center}
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[width=0.8\linewidth]{img/47}
+		\end{center}
+		\caption{Biểu đồ tổng kết nỗ lực của các học viên}
+		\label{refhinh85}
+	\end{figure}
+\end{center}
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[width=0.8\linewidth]{img/48}
+		\end{center}
+		\caption{Biểu đồ mô tả những câu hỏi khó nhất trong khóa học}
+		\label{refhinh86}
+	\end{figure}
+\end{center}
+
+\begin{center}
+	\begin{figure}[htp]
+		\begin{center}
+			\includegraphics[width=0.8\linewidth]{img/49}
+		\end{center}
+		\caption{Biểu đồ mô tả độ khó của những nội dung trong khóa học}
+		\label{refhinh87}
+	\end{figure}
+\end{center}
+
+\vskip 5cm
+
+Qua quá trình tìm hiểu nhóm có sự tham khảo các chức năng cần thiết của hai công cụ trên nhằm đáp ứng mục tiêu của đề tài trong phạm vi luận văn này. Bên cạnh đó nhóm cũng có xây dựng thêm những chức năng mới để đánh giá học viên trong khóa học chi tiết hơn.
+
+Công cụ EHAT mà nhóm xây dựng sẽ sử dụng các bảng có sẵn trong cơ sở dữ liệu của hệ thống học tập Moodle để lấy thông tin, phân tích và sẽ trả về những kết quả mà ta mong đợi. Chính vì thế nhóm sẽ nêu ra những use case cũng như những cơ sở dữ liệu của Moodle cần thiết phục vụ cho quá trình xây dựng công cụ EHAT.
+
+
 \section{Nghiên cứu use case của hệ thống Moodle}
-\subsection{Những hành động cơ bản của giáo viên và học sinh có sẵn trên Moodle}
-Khi chưa thêm công cụ EHAT giáo viên và học sinh có những hành động cơ bản sau: \cite{usecase:1}
+\subsection{Những hành động cơ bản của giảng viên và học viên có sẵn trên Moodle}
+Khi chưa thêm công cụ EHAT giảng viên và học viên có những hành động cơ bản sau:
 \begin{itemize}
-	\item Đối với giáo viên
+	\item Đối với giảng viên
 	\begin{center}
 		\begin{figure}[htp]
 			\begin{center}
 				\includegraphics[scale=0.7]{img/usecasegv}
 			\end{center}
-			\caption{Use case thể hiện hành động cơ bản của GV}
+			\caption{Use case \cite{usecase:1} thể hiện hành động cơ bản của GV}
 			\label{refhinh10}
 		\end{figure}
 	\end{center}
-	\vskip 1cm 
-	\item Đối với học sinh, sinh viên
+	\vskip 4cm 
+	\item Đối với học viên
 	\begin{center}
 		\begin{figure}[htp]
 			\begin{center}
 				\includegraphics[scale=0.7]{img/usecasehs}
 			\end{center}
-			\caption{Use case thể hiện hành động cơ bản của HS, SV}
+			\caption{Use case \cite{usecase:1} thể hiện hành động cơ bản của HV}
 			\label{refhinh11}
 		\end{figure}
 	\end{center}
@@ -32,7 +126,7 @@ Khi chưa thêm công cụ EHAT giáo viên và học sinh có những hành đ�
 \subsection{Những hành động khi thêm công cụ EHAT}
 Sau khi thêm vào hệ thống công cụ EHAT:
 \begin{itemize}
-	\item Đối với giáo viên
+	\item Đối với giảng viên
 	\begin{center}
 		\begin{figure}[htp]
 			\begin{center}
@@ -43,13 +137,13 @@ Sau khi thêm vào hệ thống công cụ EHAT:
 		\end{figure}
 	\end{center}
 	\vskip 3cm
-	\item Đối với học sinh, sinh viên
+	\item Đối với học viên
 	\begin{center}
 		\begin{figure}[htp]
 			\begin{center}
 				\includegraphics[scale=0.7]{img/usecasehsehat}
 			\end{center}
-			\caption{Use case thể hiện hành động cơ bản của HS, SV khi có EHAT}
+			\caption{Use case thể hiện hành động cơ bản của HV khi có EHAT}
 			\label{refhinh13}
 		\end{figure}
 	\end{center}
@@ -57,7 +151,7 @@ Sau khi thêm vào hệ thống công cụ EHAT:
 
 Chi tiết các hoạt đông mà EHAT mang lại:
 \begin{itemize}
-	\item Đối với giáo viên
+	\item Đối với giảng viên
 	\begin{center}
 		\begin{figure}[htp]
 			\begin{center}
@@ -68,33 +162,23 @@ Chi tiết các hoạt đông mà EHAT mang lại:
 		\end{figure}
 	\end{center}
 	\vskip 4cm
-	\item Đối với học sinh, sinh viên
+	\item Đối với học viên
 	\begin{center}
 		\begin{figure}[htp]
 			\begin{center}
 				\includegraphics[scale=0.7]{img/chitietehaths}
 			\end{center}
-			\caption{Các hoạt động EHAT mang lại cho HS, SV}
+			\caption{Các hoạt động EHAT mang lại cho HV}
 			\label{refhinh15}
 		\end{figure}
 	\end{center}
 \end{itemize}
 
 \newpage
-\section{Database của Moodle}
+\section{Cơ sở dữ liệu của Moodle}
 
-\begin{center}
-	\begin{figure}[htp]
-		\begin{center}
-			\includegraphics[scale=0.5]{img/database}
-		\end{center}
-		\caption{Các bảng được sử dụng}
-		\label{refhinh19}
-	\end{figure}
-\end{center}
+Chi tiết cấu trúc của các bảng trong cơ sở dữ liệu Moodle được nhóm sử dụng để xây dựng hệ thống là:
 
-\newpage
-Chi tiết cấu trúc cơ bản được sử dụng của từng bảng trên:
 \begin{itemize}
 	\item Bảng mdl\_user
 	\begin{center}
@@ -178,7 +262,7 @@ Chi tiết cấu trúc cơ bản được sử dụng của từng bảng trên:
 				\hline 
 				id & Khóa chính của bảng \\ 
 				\hline 
-				roleid & Khóa ngoại đến bảng role(Nơi lưu vai trò người dùng) \\ 
+				roleid & Khóa ngoại đến bảng role (Nơi lưu vai trò người dùng) \\ 
 				\hline 
 				contextid & Khóa ngoại đến bảng context \\ 
 				\hline 
@@ -203,7 +287,7 @@ Chi tiết cấu trúc cơ bản được sử dụng của từng bảng trên:
 				\hline 
 				id & Khóa chính của bảng \\ 
 				\hline 
-				contextlevel & Mức độ của một phạm vi trong moodle(50 là khóa học, 70 là câu hỏi,...) \\ 
+				contextlevel & Mức độ của một phạm vi trong moodle (50 là khóa học, 70 là câu hỏi,...) \\ 
 				\hline 
 				instanceid & Tùy thuộc vào contextlevel mà instanceid sẽ tham khảo đến \\ & id của phạm vi tương ứng \\ 
 				\hline 
@@ -252,7 +336,7 @@ Chi tiết cấu trúc cơ bản được sử dụng của từng bảng trên:
 				\hline 
 				instance & Tùy thuộc vào module mà instance sẽ tham khảo đến \\ & id của phạm vi tương ứng \\  
 				\hline 
-				visible & Điều kiện để thấy mô-đun(1: thấy, 0: ẩn) \\  
+				visible & Điều kiện để thấy mô-đun (1: thấy, 0: ẩn) \\  
 				\hline 
 				... & ... \\ 
 				\hline 
@@ -491,12 +575,12 @@ Chi tiết cấu trúc cơ bản được sử dụng của từng bảng trên:
 
 \newpage
 \section{Những dạng biểu đồ sẽ được sử dụng trong EHAT}
-EHAT sử dụng dữ liệu trong database của Moodle từ những khóa học riêng lẻ để phân tích và xây dựng các biểu đồ để thể hiện các mục tiêu mà ta mong đợi. Để đáp ứng được những mục tiêu đó với từng loại dữ liệu ta sẽ có một dạng biểu đồ tương ứng để có thể phản ảnh rõ nhất đặc điểm của dữ liệu, các dạng biểu đồ mà EHAT sử dụng bao gồm:
+EHAT sử dụng dữ liệu trong cơ sở dữ liệu của Moodle từ những khóa học riêng lẻ để phân tích và xây dựng các biểu đồ để thể hiện các mục tiêu mà ta mong đợi. Để đáp ứng được những mục tiêu đó với từng loại dữ liệu ta sẽ có một dạng biểu đồ tương ứng để có thể phản ảnh rõ nhất đặc điểm của dữ liệu, các dạng biểu đồ mà EHAT sử dụng bao gồm:
 
 \begin{itemize}
 	\item Biểu đồ mạng nhện (SpiderWeb)
 	
-	Nhóm chúng em sẽ dùng biểu đồ mạng nhện để áp dụng cho việc đánh giá và so sánh chi tiết năng lực của các HV.
+	Nhóm sẽ dùng biểu đồ mạng nhện để áp dụng cho việc đánh giá và so sánh chi tiết năng lực của các HV.
 	\begin{center}
 		\begin{figure}[htp]
 			\begin{center}
@@ -510,7 +594,7 @@ EHAT sử dụng dữ liệu trong database của Moodle từ những khóa họ
 	\newpage
 	\item Biểu đồ cột ngang (Basic bar)
 	
-	Biểu đồ cột ngang sẽ được áp dụng cho việc thống kê số lượng truy cập của sinh viên dựa vào những hành động mà ta muốn phân tích(VD: Số lượng sinh viên truy cập của tất cả bài kiểm tra,...).
+	Biểu đồ cột ngang sẽ được áp dụng cho việc thống kê số lượng truy cập của học viên dựa vào những hành động mà ta muốn phân tích (VD: Số lượng học viên truy cập của tất cả bài kiểm tra,...).
 	
 	\begin{center}
 		\begin{figure}[htp]
@@ -522,9 +606,9 @@ EHAT sử dụng dữ liệu trong database của Moodle từ những khóa họ
 		\end{figure}
 	\end{center}
 	
-	\item Biểu đồ đường (Line Chart)
+	\item Biểu đồ sparkline (Sparkline Chart)
 	
-	Biểu đồ đường được sử dụng cho việc tham khảo sự phân phối số lượt truy cập của từng sinh viên trong khóa học.
+	Biểu đồ sparkline được sử dụng cho việc tham khảo sự phân phối số lượt truy cập của từng học viên trong khóa học.
 	
 	\begin{center}
 		\begin{figure}[htp]
@@ -539,7 +623,7 @@ EHAT sử dụng dữ liệu trong database của Moodle từ những khóa họ
 	\vskip 6cm
 	\item Biểu đồ tròn (Pie Chart)
 	
-	Nhóm sử dụng biểu đồ tròn để mô tả phần trăm lượt truy cập cũng như là không truy cập của một sinh viên.
+	Nhóm sử dụng biểu đồ tròn để mô tả phần trăm lượt truy cập cũng như là không truy cập của một học viên.
 	
 	\begin{center}
 		\begin{figure}[htp]
@@ -553,7 +637,7 @@ EHAT sử dụng dữ liệu trong database của Moodle từ những khóa họ
 
 	\item Biểu đồ cột đứng (Basic Column)
 	
-	Biểu đồ cột đứng được sử dụng trong việc xem chi tiết số lần truy cập vào một tài nguyên của một sinh viên
+	Biểu đồ cột đứng được sử dụng trong việc xem chi tiết số lần truy cập vào một tài nguyên của một học viên
 	
 	\begin{center}
 		\begin{figure}[htp]

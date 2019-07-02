@@ -7,12 +7,32 @@ Nhóm đã cài đặt thành công môi trường máy chủ web sử dụng LA
 
 \section{Về công cụ EHAT}
 
-Các chức năng mà EHAT hiện thực được nhắm đến hai đối tượng là GV và HV, chúng ta sẽ cùng xem xét kết quả của từng đối tượng mà EHAT đã làm được.
+\subsection{So sánh EHAT với hai công cụ Analytics graphs và Quiz Analytics}
 
-\subsection{Đối với GV}
+\subsubsection{Giống nhau}
 
 \begin{itemize}
-	\item Thứ nhất, nhóm đã hiện thực được biểu đồ mạng nhện nhằm đánh giá được chi tiết năng lực của từng sinh viên đồng thời có thêm chức năng so sánh hai sinh viên với nhau.
+	\item Đều phân tích số liệu từ cơ sở dữ liệu của Moodle.
+	\item EHAT và Analytics graphs mô tả được điểm số của học viên.
+	\item Đều đánh giá được sự tương tác của học viên với khóa học.
+\end{itemize}
+
+\subsubsection{Khác nhau}
+
+\begin{itemize}
+	\item EHAT có thêm chức năng đánh giá chi tiết năng lực của từng học viên.
+	\item EHAT mô tả được số lần truy cập vào các tài nguyên của từng học viên.
+	\item EHAT cho phép giáo viên thêm tài liệu tham khảo.
+	\item EHAT có thêm chức năng xem lại khóa học cho học viên.
+\end{itemize}
+
+Các chức năng mà EHAT hiện thực được nhắm đến hai đối tượng là GV và HV, chúng ta sẽ cùng xem xét kết quả của từng đối tượng mà EHAT đã làm được.
+
+\vskip 5cm
+\subsection{Chức năng của EHAT đối với GV}
+
+\begin{itemize}
+	\item Thứ nhất, nhóm đã hiện thực được biểu đồ mạng nhện nhằm đánh giá được chi tiết năng lực của từng học viên đồng thời có thêm chức năng so sánh hai học viên với nhau.
 	
 	\begin{center}
 		\begin{figure}[htp]
@@ -29,12 +49,13 @@ Các chức năng mà EHAT hiện thực được nhắm đến hai đối tư�
 			\begin{center}
 				\includegraphics[width=0.8\linewidth]{img/25}
 			\end{center}
-			\caption{Biểu đồ so sánh 2 sinh viên}
+			\caption{Biểu đồ so sánh 2 học viên}
 			\label{refhinh71}
 		\end{figure}
 	\end{center}
-
-	\item Thứ hai, chúng em đã thống kê được số lượt truy cập cũng như là không truy cập của sinh viên đối với một hạng mục cụ thể nào đó. Kết quả được hiển thị như hình sau
+	
+	\vskip 5cm
+	\item Thứ hai, chúng em đã thống kê được số lượt truy cập cũng như là không truy cập của học viên đối với một hạng mục cụ thể nào đó. Kết quả được hiển thị như hình sau
 	
 	\begin{center}
 		\begin{figure}[htp]
@@ -46,15 +67,14 @@ Các chức năng mà EHAT hiện thực được nhắm đến hai đối tư�
 		\end{figure}
 	\end{center}
 
-	\vskip 5cm
-	\item Thứ ba, xây dựng thành công được chức năng nhằm đánh giá thái độ học tập của sinh viên dựa vào biểu đồ phân phối lượt truy cập của từng sinh viên.
+	\item Thứ ba, xây dựng thành công được chức năng nhằm đánh giá thái độ học tập của học viên dựa vào biểu đồ phân phối lượt truy cập của từng học viên.
 	
 	\begin{center}
 		\begin{figure}[htp]
 			\begin{center}
-				\includegraphics[width=0.8\linewidth]{img/29}
+				\includegraphics[width=0.6\linewidth]{img/29}
 			\end{center}
-			\caption{Biểu đồ phân phối lượt truy cập của SV}
+			\caption{Biểu đồ phân phối lượt truy cập của HV}
 			\label{refhinh73}
 		\end{figure}
 	\end{center}
@@ -62,15 +82,47 @@ Các chức năng mà EHAT hiện thực được nhắm đến hai đối tư�
 	\begin{center}
 		\begin{figure}[htp]
 			\begin{center}
-				\includegraphics[width=0.6\linewidth]{img/41}
+				\includegraphics[width=0.8\linewidth]{img/41}
 			\end{center}
 			\caption{Biểu đồ thể hiện phần trăm truy cập}
 			\label{refhinh74}
 		\end{figure}
 	\end{center}
 
+	\begin{center}
+		\begin{figure}[htp]
+			\begin{center}
+				\includegraphics[width=1\linewidth]{img/50}
+			\end{center}
+			\caption{Biểu đồ thể hiện chi tiết số lần truy cập của học viên}
+			\label{refhinh88}
+		\end{figure}
+	\end{center}
+
 	\vskip 5cm
-	\item Chức năng cuối cùng mà nhóm xây dựng được cho giáo viên đó là bảng hỗ trợ cho giáo viên thêm tài liệu tham khảo.
+	\item Chức năng thứ tư mà nhóm hiện thực thành công đó là mô tả được hoạt động của học viên theo từng khung giờ trong ngày
+	\begin{center}
+		\begin{figure}[htp]
+			\begin{center}
+				\includegraphics[width=0.8\linewidth]{img/51}
+			\end{center}
+			\caption{Biểu đồ số lượng học viên hoạt động theo khung giờ}
+			\label{refhinh89}
+		\end{figure}
+	\end{center}
+
+	\begin{center}
+		\begin{figure}[htp]
+			\begin{center}
+				\includegraphics[width=0.8\linewidth]{img/52}
+			\end{center}
+			\caption{Biểu đồ số lượng học viên hoạt động theo khung giờ}
+			\label{refhinh90}
+		\end{figure}
+	\end{center}
+	
+	\vskip 5cm
+	\item Chức năng cuối cùng mà nhóm xây dựng được cho giảng viên đó là bảng hỗ trợ cho giảng viên thêm tài liệu tham khảo.
 	
 	\begin{center}
 		\begin{figure}[htp]
@@ -95,16 +147,16 @@ Các chức năng mà EHAT hiện thực được nhắm đến hai đối tư�
 \end{itemize}
 
 \vskip 6cm
-\subsection{Đối với HS, SV}
+\subsection{Chức năng của EHAT đối với HV}
 
-Đối với HS, SV nhóm đã xây dựng được một chức năng nhằm giúp cho HS, SV có thể tham khảo lại chi tiết bài kiểm tra mà mình đã làm ở lần cuối cùng.
+Đối với HV nhóm đã xây dựng được một chức năng nhằm giúp cho HV có thể tham khảo lại chi tiết bài kiểm tra mà mình đã làm ở lần cuối cùng.
 
 \begin{center}
 	\begin{figure}[htp]
 		\begin{center}
-			\includegraphics[width=1\linewidth]{img/33}
+			\includegraphics[width=0.8\linewidth]{img/33}
 		\end{center}
-		\caption{Bảng xem lại khóa học của sinh viên}
+		\caption{Bảng xem lại khóa học của học viên}
 		\label{refhinh77}
 	\end{figure}
 \end{center}
